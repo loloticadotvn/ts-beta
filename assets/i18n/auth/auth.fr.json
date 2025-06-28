@@ -1,0 +1,84 @@
+{
+  "authModule": {
+    "accessdenied": {
+      "title": "Accès refusé",
+      "imageAlt": "mise en page freya",
+      "message": "accès refusé",
+      "breadcrumb": "Accès refusé"
+    },
+    "error": {
+      "title": "Erreur",
+      "imageAlt": "mise en page freya",
+      "message": "Erreur",
+      "breadcrumb": "Erreur"
+    },
+    "forgotpassword": {
+      "title": "Mot de passe oublié",
+      "subtitle": "Entrez votre email pour réinitialiser votre mot de passe",
+      "emailPlaceholder": "Email",
+      "cancelButton": "Annuler",
+      "submitButton": "Soumettre",
+      "breadcrumb": "Mot de passe oublié"
+    },
+    "lockscreen": {
+      "title": "Écran verrouillé",
+      "subtitle": "Veuillez saisir votre mot de passe",
+      "avatarAlt": "Avatar",
+      "userName": "Amy Elsner",
+      "userRole": "Webmaster",
+      "signoutButton": "Se déconnecter",
+      "passwordPlaceholder": "Mot de passe",
+      "unlockButton": "Déverrouiller",
+      "forgotPasswordLink": "Mot de passe oublié ?",
+      "breadcrumb": "Écran verrouillé"
+    },
+    "login": {
+      "tabSignIn": "Se connecter",
+      "tabWithToken": "Avec jeton",
+      "tabTrial": "Essai",
+      "emailPlaceholder": "Email",
+      "passwordPlaceholder": "Mot de passe",
+      "signInButton": "Se connecter",
+      "tokenPlaceholder": "Jeton",
+      "signInWithTokenButton": "Se connecter",
+      "trialButton": "Essai de 14 jours",
+      "memberIdPlaceholder": "Identifiant du membre",
+      "pinPlaceholder": "PIN",
+      "signInAsMemberButton": "Se connecter en tant que membre",
+      "forgotPasswordLink": "mot de passe oublié ?",
+      "memberAccountCheckbox": "Avez-vous un compte Membre ?",
+      "noAccountPrompt": "Vous n'avez pas de compte,",
+      "signUpLink": "inscrivez-vous",
+      "loginFailedTitle": "Échec de la connexion",
+      "loginFailedIncorrect": "L'email ou le mot de passe est incorrect !",
+      "loginFailedGeneric": "Échec de la connexion",
+      "breadcrumb": "Connexion"
+    },
+    "newpassword": {
+      "title": "Nouveau mot de passe",
+      "subtitle": "Entrez votre nouveau mot de passe",
+      "passwordPlaceholder": "Mot de passe",
+      "repeatPasswordPlaceholder": "Répéter le mot de passe",
+      "cancelButton": "Annuler",
+      "submitButton": "Soumettre",
+      "breadcrumb": "Nouveau mot de passe"
+    },
+    "register": {
+      "emailPlaceholder": "Email",
+      "passwordPlaceholder": "Mot de passe",
+      "signUpButton": "S'inscrire",
+      "haveAccountPrompt": "Vous avez déjà un compte ?",
+      "loginLink": "Connexion",
+      "signUpFailedTitle": "Échec de la connexion",
+      "breadcrumb": "S'inscrire"
+    },
+    "verification": {
+      "title": "Vérification",
+      "subtitle": "Nous avons envoyé un code à votre adresse e-mail :",
+      "emailDisplay": "dm**@gmail.com",
+      "cancelButton": "Annuler",
+      "verifyButton": "Vérifier",
+      "breadcrumb": "Vérification"
+    }
+  }
+} 

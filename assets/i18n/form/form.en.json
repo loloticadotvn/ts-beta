@@ -1,0 +1,181 @@
+{
+  "formModule": {
+    "dialogs": {
+      "share": {
+        "header": "Share Form",
+        "fromForm": "From form",
+        "toText": "To text",
+        "whoSeeText": "Who see the text",
+        "selectAudience": "Select an Audience",
+        "cancel": "Cancel",
+        "create": "Create"
+      },
+      "createManual": {
+        "header": "Create Form Manually",
+        "formName": "Form Name",
+        "namePlaceholder": "Enter a name here",
+        "nameRequired": "Name is required.",
+        "description": "Description",
+        "descriptionPlaceholder": "Enter a description here",
+        "cancel": "Cancel",
+        "create": "Create"
+      },
+      "createJson": {
+        "header": "Create Form from JSON",
+        "formName": "Form Name",
+        "namePlaceholder": "Title",
+        "description": "Description",
+        "descriptionPlaceholder": "Enter a description here",
+        "jsonInstructions": "Copy and paste your JSON data to create questions into the textbox below",
+        "cancel": "Cancel",
+        "create": "Create"
+      },
+      "createAi": {
+        "header": "Create Form with AI",
+        "quizName": "Quiz Name*",
+        "namePlaceholder": "Enter a name here",
+        "nameRequired": "Name is required.",
+        "prompt": "Prompt*",
+        "promptPlaceholder": "Enter a prompt here",
+        "promptRequired": "Prompt is required.",
+        "description": "Description",
+        "descriptionPlaceholder": "Enter a description here",
+        "cancel": "Cancel",
+        "create": "Create"
+      }
+    },
+    "sidebar": {
+      "addNewForm": "Add New Form",
+      "menu": {
+        "manual": "Quiz form manually",
+        "json": "Quiz form via JSON",
+        "ai": "Quiz form via AI"
+      }
+    },
+    "preview": {
+      "works": "Form Preview Works!",
+      "totalQuestions": "Total Questions: {{count}}",
+      "correctAnswers": "Correct Answers: {{count}}",
+      "choice": {
+        "expectedAnswerTooltip": "Expected Answer",
+        "pointsLabel": "Points: {{points}}",
+        "pointsLabelText": "Points",
+        "requiredLabel": "Required",
+        "answerButton": "Answer"
+      },
+      "dragDrop": {
+        "questionHeaderDefault": "Question",
+        "expectationHeaderDefault": "Expectation"
+      },
+      "resultCorrect": "Correct",
+      "resultIncorrect": "Incorrect"
+    },
+    "copy": {
+      "works": "Form Copy Works!"
+    },
+    "share": {
+      "works": "Form Share Works!"
+    },
+    "messages": {
+      "formCreated": "Form created: {{title}}",
+      "formFailed": "Form failed to create: {{title}}",
+      "formCreating": "Form is creating: {{title}}",
+      "formCreatingNotice": "You will be notified when Form construction is done!",
+      "textCreated": "Text created: {{title}}",
+      "textFailed": "Text failed to create: {{title}}"
+    },
+    "detailSidebar": {
+      "unlock": "Unlock",
+      "lock": "Lock",
+      "save": "Save",
+      "copy": "Copy",
+      "share": "Share",
+      "delete": "Delete",
+      "bookmark": "Bookmark",
+      "confirmDeleteHeader": "Delete Confirmation",
+      "confirmDeleteMessage": "Do you want to delete the form: {{title}}?",
+      "messageConfirmed": "Confirmed",
+      "messageDeleted": "Deleted the form: {{title}}"
+    },
+    "detailHome": {
+      "titlePlaceholder": "Form title",
+      "insertImageTooltip": "Insert image",
+      "aiPromptNotice": "Quiz is created by the prompt: <b>{{prompt}}</b>",
+      "realtimeCheckbox": "Allow quiz in realtime",
+      "addNewQuestionButton": "Add a new question",
+      "menu": {
+        "addChoice": "Choice Question",
+        "addYesNo": "Yes/No Question",
+        "addDragDrop": "Drag & Drop Question",
+        "addMatchPair": "Match the Pair Question",
+        "addFromJson": "Add Questions from JSON"
+      }
+    },
+    "detailShare": {
+      "works": "Form Detail Share Works!"
+    },
+    "detailNew": {
+      "works": "Form New Works!"
+    },
+    "questionTypes": {
+      "choice": {
+        "questionPlaceholder": "Question text",
+        "insertImageTooltip": "Insert image",
+        "openRichEditorTooltip": "Open rich editor",
+        "multipleAnswersLabel": "Multiple answers",
+        "addNewChoiceButton": "Add a new choice",
+        "choicePlaceholder": "Choice text",
+        "removeChoiceTooltip": "Remove this choice",
+        "markCorrectTooltip": "Mark this choice as correct",
+        "confirmDeleteOptionMessage": "Do you want to delete this option?",
+        "optionDeletedMessage": "This option is deleted from the current question",
+        "pointsLabelAddon": "Points",
+        "requiredLabelSwitch": "Required",
+        "commentTooltip": "Add comment/feedback",
+        "moreOptionsTooltip": "More question options"
+      },
+      "dragDrop": {
+        "questionPlaceholder": "Question text",
+        "insertImageTooltip": "Insert image",
+        "openRichEditorTooltip": "Open rich editor",
+        "wordPlaceholder": "Word text",
+        "removeWordTooltip": "Remove this word",
+        "addNewWordButton": "Add a new word",
+        "confirmDeleteWordMessage": "Do you want to delete this word?",
+        "wordDeletedMessage": "This word is deleted from the current question"
+      },
+      "matchPair": {
+        "questionPlaceholder": "Question text",
+        "insertImageTooltip": "Insert image",
+        "openRichEditorTooltip": "Open rich editor",
+        "leftPairPlaceholder": "Left pair",
+        "rightPairPlaceholder": "Right pair",
+        "removePairTooltip": "Remove this pair",
+        "addNewPairButton": "Add a new pair",
+        "confirmDeletePairMessage": "Do you want to delete this pair?",
+        "pairDeletedMessage": "This pair is deleted from the current question"
+      }
+    },
+    "list": {
+      "title": "List of forms",
+      "searchPlaceholder": "Search in table",
+      "filter": {
+        "createdByHeader": "Created by",
+        "anyPlaceholder": "Any"
+      },
+      "column": {
+        "category": "Category",
+        "title": "Title",
+        "createdBy": "Created by",
+        "realtime": "Realtime",
+        "createdAt": "Created At",
+        "updatedAt": "Updated At"
+      },
+      "contextMenu": {
+        "title": "Form menu",
+        "deleteConfirm": "Delete the form '{title}' of {{username}}?",
+        "share": "Share to"
+      }
+    }
+  }
+} 

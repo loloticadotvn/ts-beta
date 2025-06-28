@@ -1,0 +1,64 @@
+{
+  "examModule": {
+    "breadcrumbs": {
+      "list": "Списък",
+      "detail": "Детайл"
+    },
+    "list": {
+      "title": "Списък с изпити",
+      "home": {
+        "table": {
+          "columns": {
+            "code": "Код",
+            "exam": "Изпит",
+            "createdBy": "Създаден от",
+            "assignTo": "Назначен на",
+            "progress": "Напредък",
+            "stats": "Статистика",
+            "totalPoints": "Общо точки",
+            "earnedPoints": "Спечелени точки",
+            "result": "Резултат",
+            "realtime": "Реално време",
+            "startTime": "Начален час",
+            "endTime": "Краен час",
+            "lastSave": "Последно запазване"
+          }
+        },
+        "progress": {
+          "notStarted": "Не е започнат",
+          "inProgress": "В процес",
+          "finished": "Завършен"
+        },
+        "contextMenu": {
+          "title": "Меню Изпит",
+          "deleteConfirm": "Изтриване на изпит '{{title}}' на {{username}}?",
+          "edit": "Редактирай този изпит",
+          "share": "Сподели изпит"
+        },
+        "dialog": {
+          "deleteConfirm": "Искате ли да изтриете изпит '{{title}}', назначен на {{username}}?"
+        },
+        "statsDescription": "Общо верни отговори: {{correct}} / Общо въпроси: {{total}}",
+        "placeholders": {
+          "selectQuiz": "Избери тест",
+          "searchTable": "Търсене в таблицата",
+          "any": "Всякакъв"
+        },
+        "tooltips": {
+          "copyCode": "Копирай кода"
+        }
+      }
+    },
+    "detail": {
+      "sidebar": {
+        "startExam": "Започни изпит",
+        "finishExam": "Приключи изпит",
+        "save": "Запази",
+        "pingPongInfo": "Това е въпрос и отговор тип пинг-понг"
+      }
+    },
+    "errors": {
+      "saveFailed": "Неуспешно запазване на изпит '{{examId}}' с грешка: {{error}}"
+    }
+  }
+} 

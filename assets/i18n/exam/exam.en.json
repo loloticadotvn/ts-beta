@@ -1,0 +1,64 @@
+{
+  "examModule": {
+    "breadcrumbs": {
+      "list": "List",
+      "detail": "Detail"
+    },
+    "list": {
+      "title": "List of exams",
+      "home": {
+        "table": {
+          "columns": {
+            "code": "Code",
+            "exam": "Exam",
+            "createdBy": "Created by",
+            "assignTo": "Assign to",
+            "progress": "Progress",
+            "stats": "Stats",
+            "totalPoints": "Total points",
+            "earnedPoints": "Earned points",
+            "result": "Result",
+            "realtime": "Realtime",
+            "startTime": "Start time",
+            "endTime": "End time",
+            "lastSave": "Last save"
+          }
+        },
+        "progress": {
+          "notStarted": "Not started yet",
+          "inProgress": "In progress",
+          "finished": "Finished"
+        },
+        "contextMenu": {
+          "title": "Exam menu",
+          "deleteConfirm": "Delete the exam '{{title}}' of {{username}}?",
+          "edit": "Edit this exam",
+          "share": "Share exam"
+        },
+        "dialog": {
+          "deleteConfirm": "Do you want to delete the exam '{{title}}' that assigned to {{username}}?"
+        },
+        "statsDescription": "Total correct answers: {{correct}} / Total questions: {{total}}",
+        "placeholders": {
+          "selectQuiz": "Select a Quiz",
+          "searchTable": "Search in table",
+          "any": "Any"
+        },
+        "tooltips": {
+          "copyCode": "Copy code"
+        }
+      }
+    },
+    "detail": {
+      "sidebar": {
+        "startExam": "Start Exam",
+        "finishExam": "Finish Exam",
+        "save": "Save",
+        "pingPongInfo": "This is a ping-pong question & answer"
+      }
+    },
+    "errors": {
+      "saveFailed": "Failed to save exam '{{examId}}' with error: {{error}}"
+    }
+  }
+} 

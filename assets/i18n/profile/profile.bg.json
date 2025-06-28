@@ -1,0 +1,148 @@
+{
+  "profileModule": {
+    "list": {
+      "pageReport": "Показване на {first} до {last} от {totalRecords} записа",
+      "globalSearchPlaceholder": "Глобално търсене",
+      "addNewButton": "Добави нов",
+      "table": {
+        "nameHeader": "Име",
+        "countryHeader": "Държава",
+        "joinDateHeader": "Дата на присъединяване",
+        "createdByHeader": "Създаден от",
+        "activityHeader": "Активност"
+      }
+    },
+    "create": {
+      "breadcrumb": "Създай",
+      "user": {
+        "title": "Създай потребител",
+        "sectionTitle": "Профил",
+        "sectionDescription": "Odio euismod lacinia at quis risus sed vulputate odio.",
+        "nicknameLabel": "Псевдоним",
+        "avatarLabel": "Аватар",
+        "uploadImageButton": "Качи изображение",
+        "bioLabel": "Биография",
+        "emailLabel": "Имейл",
+        "countryLabel": "Държава",
+        "selectCountryPlaceholder": "Избери държава",
+        "cityLabel": "Град",
+        "stateLabel": "Щат/Провинция",
+        "websiteLabel": "Уебсайт",
+        "websiteAddon": "www",
+        "createUserButton": "Създай потребител",
+        "countries": {
+          "AU": "Австралия",
+          "BR": "Бразилия",
+          "CN": "Китай",
+          "EG": "Египет",
+          "FR": "Франция",
+          "DE": "Германия",
+          "IN": "Индия",
+          "JP": "Япония",
+          "ES": "Испания",
+          "US": "Съединени щати"
+        }
+      },
+      "group": {
+        "placeholder": "create-group работи!"
+      },
+      "member": {
+        "title": "Създай член",
+        "description1": "Членът ще се управлява от вас. Пример: Ако член забрави паролата си, можете да му изпратите нов OTP.",
+        "description2": "След създаването изпращате генерирания OTP на този член за вход.",
+        "description3": "OTP е валиден само 24 часа след създаването на члена.",
+        "nameLabel": "Име на член",
+        "emailLabel": "Имейл",
+        "createMemberButton": "Създай член",
+        "table": {
+          "idHeader": "Id",
+          "nameHeader": "Име",
+          "pinHeader": "PIN",
+          "emailHeader": "Имейл"
+        }
+      },
+      "sidebar": {
+        "createMember": "Създай член",
+        "createUser": "Създай потребител",
+        "createGroup": "Създай група"
+      }
+    },
+    "settings": {
+      "breadcrumb": "Настройки",
+      "home": {
+        "cardHeader": "Информация за потребителя",
+        "title": "Настройки на профила",
+        "usernameLabel": "Потребителско име",
+        "tokenLabel": "Токен",
+        "tokenPlaceholder": "Токен",
+        "loginEmailLabel": "Имейл за вход",
+        "loginIdLabel": "ID за вход",
+        "avatarLabel": "Аватар",
+        "changeAvatarButton": "Смени аватара",
+        "updateUserInfoButton": "Актуализирай информацията за потребителя",
+        "passwordUpdateCardHeader": "Актуализация на паролата",
+        "currentPasswordLabel": "Текуща парола",
+        "newPasswordLabel": "Нова парола",
+        "repeatNewPasswordLabel": "Повтори новата парола",
+        "passwordMismatchError": "Новата парола и повторението на новата парола не съвпадат.",
+        "changePasswordButton": "Смени паролата",
+        "signInWithEmailCardHeader": "Вход с Имейл",
+        "emailLabel": "Имейл",
+        "passwordLabel": "Парола",
+        "repeatPasswordLabel": "Повтори паролата",
+        "updateSignInMethodButton": "Актуализирай метода за вход"
+      }
+    },
+    "member": {
+      "breadcrumb": "Член",
+      "list": {
+        "breadcrumb": "Списък",
+        "home": {
+          "searchPlaceholder": "Формуляр за търсене",
+          "table": {
+            "idHeader": "Id",
+            "nameHeader": "Име",
+            "activatedHeader": "Активиран",
+            "emailHeader": "Имейл",
+            "pinHeader": "PIN",
+            "avatarHeader": "Аватар",
+            "createdByHeader": "Създаден от",
+            "updatedAtHeader": "Актуализиран на"
+          },
+          "trashTooltip": "Кошче",
+          "deleteConfirmHeader": "Потвърждение за изтриване",
+          "deleteConfirmMessage": "Искате ли да изтриете члена: {memberName}?"
+        },
+        "sidebar": {
+          "placeholder": "member-list-sidebar работи!"
+        }
+      },
+      "detail": {
+        "breadcrumb": "Детайл",
+        "home": {
+          "placeholder": "member-detail-home работи!"
+        },
+        "sidebar": {
+          "placeholder": "member-detail-sidebar работи!"
+        }
+      }
+    },
+    "notifications": {
+      "saveSuccessTitle": "Потребителски профил",
+      "saveSuccessMessage": "Запазено успешно!",
+      "saveErrorTitle": "Потребителски профил",
+      "saveErrorMessage": "Неуспешно запазване!. Грешка: {errorMessage}",
+      "uploadErrorTitle": "Качване на файл",
+      "uploadErrorMessage": "Неуспешно качване на файла за аватар",
+      "copySuccessTitle": "Копирай",
+      "copySuccessMessage": "Токенът е копиран в клипборда",
+      "changePasswordTitle": "Смяна на парола",
+      "changePasswordSuccessMessage": "Паролата е актуализирана успешно!",
+      "changePasswordErrorTitle": "Смяна на парола",
+      "passwordRulesTitle": "Правила за парола",
+      "deleteSuccessTitle": "Успех",
+      "deleteSuccessMessage": "Членът {memberName} е изтрит",
+      "deleteErrorTitle": "Грешка"
+    }
+  }
+}

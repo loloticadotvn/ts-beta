@@ -1,0 +1,84 @@
+{
+  "authModule": {
+    "accessdenied": {
+      "title": "访问被拒绝",
+      "imageAlt": "freya 布局",
+      "message": "访问被拒绝",
+      "breadcrumb": "访问被拒绝"
+    },
+    "error": {
+      "title": "错误",
+      "imageAlt": "freya 布局",
+      "message": "错误",
+      "breadcrumb": "错误"
+    },
+    "forgotpassword": {
+      "title": "忘记密码",
+      "subtitle": "输入您的电子邮件以重置密码",
+      "emailPlaceholder": "电子邮件",
+      "cancelButton": "取消",
+      "submitButton": "提交",
+      "breadcrumb": "忘记密码"
+    },
+    "lockscreen": {
+      "title": "锁定屏幕",
+      "subtitle": "请输入您的密码",
+      "avatarAlt": "头像",
+      "userName": "艾米·埃尔斯纳",
+      "userRole": "网站管理员",
+      "signoutButton": "登出",
+      "passwordPlaceholder": "密码",
+      "unlockButton": "解锁",
+      "forgotPasswordLink": "忘记密码？",
+      "breadcrumb": "锁定屏幕"
+    },
+    "login": {
+      "tabSignIn": "登录",
+      "tabWithToken": "使用令牌",
+      "tabTrial": "试用",
+      "emailPlaceholder": "电子邮件",
+      "passwordPlaceholder": "密码",
+      "signInButton": "登录",
+      "tokenPlaceholder": "令牌",
+      "signInWithTokenButton": "登录",
+      "trialButton": "14 天试用",
+      "memberIdPlaceholder": "会员 ID",
+      "pinPlaceholder": "PIN",
+      "signInAsMemberButton": "以会员身份登录",
+      "forgotPasswordLink": "忘记密码？",
+      "memberAccountCheckbox": "有会员账户？",
+      "noAccountPrompt": "你没有账户,",
+      "signUpLink": "注册",
+      "loginFailedTitle": "登录失败",
+      "loginFailedIncorrect": "电子邮件或密码不正确！",
+      "loginFailedGeneric": "登录失败",
+      "breadcrumb": "登录"
+    },
+    "newpassword": {
+      "title": "新密码",
+      "subtitle": "输入您的新密码",
+      "passwordPlaceholder": "密码",
+      "repeatPasswordPlaceholder": "重复密码",
+      "cancelButton": "取消",
+      "submitButton": "提交",
+      "breadcrumb": "新密码"
+    },
+    "register": {
+      "emailPlaceholder": "电子邮件",
+      "passwordPlaceholder": "密码",
+      "signUpButton": "注册",
+      "haveAccountPrompt": "已有账户？",
+      "loginLink": "登录",
+      "signUpFailedTitle": "登录失败",
+      "breadcrumb": "注册"
+    },
+    "verification": {
+      "title": "验证",
+      "subtitle": "我们已将代码发送到您的电子邮件：",
+      "emailDisplay": "dm**@gmail.com",
+      "cancelButton": "取消",
+      "verifyButton": "验证",
+      "breadcrumb": "验证"
+    }
+  }
+} 

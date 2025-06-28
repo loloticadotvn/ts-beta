@@ -1,0 +1,72 @@
+{
+  "pomodoroModule": {
+    "task": {
+      "dialogs": {
+        "edit": {
+          "header": "Edit Pomodoro task",
+          "placeholder": "New countdown task",
+          "cancelButton": "Cancel",
+          "saveButton": "Save"
+        },
+        "changeTask": {
+          "header": "Change task?",
+          "content": "The working task needs to be stopped before focusing on this task."
+        },
+        "deleteTask": {
+          "header": "Delete task?",
+          "content": "The working task needs to be stopped before focusing on it."
+        },
+        "confirmDelete": {
+            "header": "Confirmation",
+            "message": "Are you sure that you want to delete the task?",
+            "rejectLabel": "No",
+            "acceptLabel": "Yes",
+            "acceptMessageSummary": "Delete Confirmation",
+            "acceptMessageDetail": "Task deleted successfully",
+            "rejectMessageSummary": "Rejected",
+            "rejectMessageDetail": "You have rejected"
+        }
+      },
+      "form": {
+        "addTaskPlaceholder": "New pomodoro task",
+        "addButton": "Add"
+      },
+      "labels": {
+        "totalTimeSpent": "Total time spent of showing tasks:"
+      },
+      "table": {
+        "searchPlaceholder": "Search in table",
+        "saveTooltip": "Save",
+        "headerTask": "Task",
+        "headerCreatedAt": "Created At",
+        "headerTimeSpent": "Time Spent",
+        "dragTooltip": "Drag up/down",
+        "focusTimeTooltip": "Focus time spent",
+        "makeDoneTooltip": "Make it done!",
+        "taskIsDoneTooltip": "Task is done!",
+        "duplicateTooltip": "Duplicate it!",
+        "removeTooltip": "Remove it!",
+        "headerLap": "Lap",
+        "headerStart": "Start",
+        "headerStop": "Stop",
+        "delayedStopTooltip": "delayed stop time:"
+      },
+      "knob": {
+        "noTaskHeader": "No task",
+        "relaxTimeLabel": "Relax time",
+        "focusTimeLabel": "Focus time",
+        "startTooltip": "start stopwatch",
+        "stopTooltip": "stop stopwatch"
+      },
+      "searchOptions": {
+        "notDone": "Tasks: Not Done",
+        "done": "Tasks: Done",
+        "selecting": "Tasks: Selecting"
+      },
+      "messages": {
+          "cannotSaveSummary": "Cannot save",
+          "cannotSaveDetail": "Stop your running task before saving"
+      }
+    }
+  }
+} 

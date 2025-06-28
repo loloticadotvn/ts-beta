@@ -1,0 +1,181 @@
+{
+  "formModule": {
+    "dialogs": {
+      "share": {
+        "header": "Споделяне на Формуляр",
+        "fromForm": "От формуляр",
+        "toText": "До текст",
+        "whoSeeText": "Кой вижда текста",
+        "selectAudience": "Изберете аудитория",
+        "cancel": "Отказ",
+        "create": "Създаване"
+      },
+      "createManual": {
+        "header": "Създаване на Формуляр Ръчно",
+        "formName": "Име на Формуляр",
+        "namePlaceholder": "Въведете име тук",
+        "nameRequired": "Името е задължително.",
+        "description": "Описание",
+        "descriptionPlaceholder": "Въведете описание тук",
+        "cancel": "Отказ",
+        "create": "Създаване"
+      },
+      "createJson": {
+        "header": "Създаване на Формуляр от JSON",
+        "formName": "Име на Формуляр",
+        "namePlaceholder": "Заглавие",
+        "description": "Описание",
+        "descriptionPlaceholder": "Въведете описание тук",
+        "jsonInstructions": "Копирайте и поставете вашите JSON данни за създаване на въпроси в текстовото поле по-долу",
+        "cancel": "Отказ",
+        "create": "Създаване"
+      },
+      "createAi": {
+        "header": "Създаване на Формуляр с ИИ",
+        "quizName": "Име на Тест*",
+        "namePlaceholder": "Въведете име тук",
+        "nameRequired": "Името е задължително.",
+        "prompt": "Заявка*",
+        "promptPlaceholder": "Въведете заявка тук",
+        "promptRequired": "Заявката е задължителна.",
+        "description": "Описание",
+        "descriptionPlaceholder": "Въведете описание тук",
+        "cancel": "Отказ",
+        "create": "Създаване"
+      }
+    },
+    "sidebar": {
+      "addNewForm": "Добавяне на Нов Формуляр",
+      "menu": {
+        "manual": "Формуляр за тест ръчно",
+        "json": "Формуляр за тест чрез JSON",
+        "ai": "Формуляр за тест чрез ИИ"
+      }
+    },
+    "preview": {
+      "works": "Преглед на Формуляр Работи!",
+      "totalQuestions": "Общ брой въпроси: {{count}}",
+      "correctAnswers": "Верни отговори: {{count}}",
+      "choice": {
+        "expectedAnswerTooltip": "очакван отговор",
+        "pointsLabel": "Точки: {{points}}",
+        "pointsLabelText": "Точки",
+        "requiredLabel": "Задължително",
+        "answerButton": "Отговори"
+      },
+      "dragDrop": {
+        "questionHeaderDefault": "Въпрос",
+        "expectationHeaderDefault": "Очакване"
+      },
+      "matchPair": {},
+      "resultCorrect": "Вярно",
+      "resultIncorrect": "Грешно"
+    },
+    "copy": {
+      "works": "Копиране на Формуляр Работи!"
+    },
+    "share": {
+      "works": "Споделяне на Формуляр Работи!"
+    },
+    "messages": {
+      "formCreated": "Формулярът е създаден: {{title}}",
+      "formFailed": "Неуспешно създаване на формуляр: {{title}}",
+      "formCreating": "Формулярът се създава: {{title}}",
+      "formCreatingNotice": "Ще бъдете уведомени, когато изграждането на формуляра приключи!",
+      "textCreated": "Текстът е създаден: {{title}}",
+      "textFailed": "Неуспешно създаване на текст: {{title}}"
+    },
+    "detailSidebar": {
+      "unlock": "Отключи",
+      "lock": "Заключи",
+      "save": "Запази",
+      "copy": "Копирай",
+      "share": "Сподели",
+      "delete": "Изтрий",
+      "bookmark": "Отметка",
+      "confirmDeleteHeader": "Потвърждение за изтриване",
+      "confirmDeleteMessage": "Искате ли да изтриете формуляра: {{title}}?",
+      "messageConfirmed": "Потвърдено",
+      "messageDeleted": "Изтрит формуляр: {{title}}"
+    },
+    "detailHome": {
+      "titlePlaceholder": "Заглавие на формуляра",
+      "insertImageTooltip": "Вмъкни изображение",
+      "aiPromptNotice": "Тестът е създаден от заявка: <b>{{prompt}}</b>",
+      "realtimeCheckbox": "Разреши тест в реално време",
+      "addNewQuestionButton": "Добави нов въпрос",
+      "menu": {
+        "addChoice": "Въпрос с Избор",
+        "addDragDrop": "Въпрос Плъзгане и Пускане",
+        "addMatchPair": "Въпрос Свързване на Двойки",
+        "addFromJson": "Добавяне на Въпроси от JSON"
+      }
+    },
+    "detailShare": {
+      "works": "Споделянето на подробности за формуляр работи!"
+    },
+    "detailNew": {
+      "works": "Новите подробности за формуляр работят!"
+    },
+    "questionTypes": {
+      "choice": {
+        "questionPlaceholder": "Текст на въпроса",
+        "insertImageTooltip": "Вмъкни изображение",
+        "openRichEditorTooltip": "Отвори разширен редактор",
+        "multipleAnswersLabel": "Множество отговори",
+        "addNewChoiceButton": "Добави нов избор",
+        "choicePlaceholder": "Текст на избора",
+        "removeChoiceTooltip": "Премахни този избор",
+        "markCorrectTooltip": "Маркирай този избор като верен",
+        "confirmDeleteOptionMessage": "Искате ли да изтриете тази опция?",
+        "optionDeletedMessage": "Тази опция е изтрита от текущия въпрос",
+        "pointsLabelAddon": "Точки",
+        "requiredLabelSwitch": "Задължително",
+        "commentTooltip": "Добави коментар/обратна връзка",
+        "moreOptionsTooltip": "Още опции за въпроса"
+      },
+      "dragDrop": {
+        "questionPlaceholder": "Текст на въпроса",
+        "insertImageTooltip": "Вмъкни изображение",
+        "openRichEditorTooltip": "Отвори разширен редактор",
+        "wordPlaceholder": "Текст на думата",
+        "removeWordTooltip": "Премахни тази дума",
+        "addNewWordButton": "Добави нова дума",
+        "confirmDeleteWordMessage": "Искате ли да изтриете тази дума?",
+        "wordDeletedMessage": "Тази дума е изтрита от текущия въпрос"
+      },
+      "matchPair": {
+        "questionPlaceholder": "Текст на въпроса",
+        "insertImageTooltip": "Вмъкни изображение",
+        "openRichEditorTooltip": "Отвори разширен редактор",
+        "leftPairPlaceholder": "Лява двойка",
+        "rightPairPlaceholder": "Дясна двойка",
+        "removePairTooltip": "Премахни тази двойка",
+        "addNewPairButton": "Добави нова двойка",
+        "confirmDeletePairMessage": "Искате ли да изтриете тази двойка?",
+        "pairDeletedMessage": "Тази двойка е изтрита от текущия въпрос"
+      }
+    },
+    "list": {
+      "title": "Списък с формуляри",
+      "searchPlaceholder": "Търсене в таблицата",
+      "filter": {
+        "createdByHeader": "Създаден от",
+        "anyPlaceholder": "Всякакви"
+      },
+      "column": {
+        "category": "Категория",
+        "title": "Заглавие",
+        "createdBy": "Създаден от",
+        "realtime": "Реално време",
+        "createdAt": "Създаден на",
+        "updatedAt": "Актуализиран на"
+      },
+      "contextMenu": {
+        "title": "Меню Формуляр",
+        "deleteConfirm": "Изтриване на формуляр '{title}' от {{username}}?",
+        "share": "Споделяне с"
+      }
+    }
+  }
+} 

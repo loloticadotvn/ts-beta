@@ -1,0 +1,29 @@
+{
+  "historyModule": {
+    "list": {
+      "pageTitle": "Списък на историите",
+      "searchPlaceholder": "Търсене в таблицата",
+      "columns": {
+        "no": "№",
+        "type": "Тип",
+        "title": "Заглавие",
+        "createdBy": "Създаден от",
+        "createdAt": "Създаден на",
+        "updatedAt": "Актуализиран на"
+      },
+      "filter": {
+        "createdBy": {
+          "header": "Създаден от",
+          "placeholder": "Някой"
+        }
+      },
+      "contextMenu": {
+        "title": "Меню история"
+      }
+    },
+    "breadcrumb": {
+      "list": "Списък",
+      "detail": "Детайл"
+    }
+  }
+} 

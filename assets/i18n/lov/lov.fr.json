@@ -1,0 +1,150 @@
+{
+    "lovModule": {
+        "list": {
+            "labels": {
+                "breadcrumb": "Liste",
+                "title": "Liste des valeurs",
+                "addNewButton": "Ajouter un nouveau LOV"
+            },
+            "sidebar": {
+                "labels": {
+                    "createdByMe": "Créé par moi",
+                    "createdByFriends": "Créé par mes amis",
+                    "createdByPublic": "Créé publiquement"
+                  }                  
+            },
+            "errors": {
+                "loadErrorTitle": "Erreur de chargement"
+            }
+        },
+        "home": {
+            "columns": {
+                "name": "Nom",
+                "audience": "Audience",
+                "createdBy": "Créé par",
+                "createdAt": "Créé le",
+                "updatedAt": "Mis à jour le"
+            },
+            "menus": {
+                "title": "Menu LOV",
+                "duplicate": "Dupliquer LOV '{{itemName}}'",
+                "delete": "Supprimer LOV '{{itemName}}'",
+                "setup": "Configurer LOV '{{itemName}}'"
+            }
+        },
+        "detail": {
+            "labels": {
+                "breadcrumb": "Détail",
+                "editButton": "Modifier",
+                "deleteButton": "Supprimer",
+                "rowContextMenuTitle": "Actions sur la ligne",
+                "createdBy": "Créé par"
+            },
+            "tooltips": {
+                "hideColumnName": "Cocher pour masquer le nom de la colonne",
+                "columnName": "Nom de colonne",
+                "columnType": "Type de données de la colonne",
+                "columnUniqueness": "Unicité des valeurs de colonne",
+                "columnDefaultValue": "Valeur par défaut de la colonne",
+                "columnStyle": "Style de la colonne",
+                "columnDescription": "Description de la colonne",
+                "editTable": "Modifier la table",
+                "saveTable": "Enregistrer la table",
+                "uniqueValueHint": "Autoriser uniquement les valeurs uniques !. "
+            },
+            "placeholders": {
+                "any": "Tous",
+                "enterValue": "Entrez une valeur",
+                "enterCsvData": "Entrez les données CSV",
+                "enterPrompt": "Entrez une invite"
+            },
+            "buttons": {
+                "import": "Importer"
+            },
+            "dialogs": {
+                "importCsvTitle": "Importer des données depuis CSV",
+                "importCsvDescription": "Les données CSV incluent des lignes. Les colonnes de chaque ligne sont séparées par des virgules.",
+                "importAiTitle": "Importer des données depuis l'IA"
+            },
+            "menus": {
+                "addRow": "Ajouter une nouvelle ligne",
+                "rowMenuTitle": "Menu de ligne LOV",
+                "deleteRow": "Supprimer cette ligne",
+                "saveLov": "Enregistrer LOV '{{lovName}}'",
+                "importCsv": "Importer depuis CSV",
+                "importAi": "Importer depuis l'IA"
+            },
+            "notifications": {
+                "confirmed": "Confirmé",
+                "rowDeleted": "Cette ligne est supprimée du LOV actuel !",
+                "lovSavedDetail": "LOV enregistré",
+                "dataCreationTitle": "Création de données",
+                "dataGeneratedSuccess": "Les données pour LOV '{{lovName}}' ont été générées par GenAI !",
+                "dataGeneratedError": "Échec de la génération des données pour LOV '{{lovName}}' !",
+                "saveToDeleteHint": "<br/> Pour supprimer définitivement, vous devez cliquer sur le bouton 'Enregistrer' !"
+            },
+            "confirmations": {
+                "deleteRowContents": "Êtes-vous sûr de vouloir supprimer cette ligne et son contenu ?. ",
+                "saveToDeleteHint": "<br/> Pour supprimer définitivement, vous devez cliquer sur le bouton 'Enregistrer' !"
+            },
+            "errors": {
+                "noIdTitle": "Aucun ID attaché",
+                "noIdDetail": "Impossible d'obtenir le LOV sans ID",
+                "loadErrorTitle": "Erreur de chargement",
+                "lovSaveFailed": "Échec de l'enregistrement du LOV",
+                "csvColumnMismatch": "Impossible d'insérer les lignes restantes car le nombre total de colonnes de chaque ligne n'est pas égal au nombre total de colonnes prédéfinies = "
+            }
+        },
+        "edit": {
+            "labels": {
+                "breadcrumb": "Modifier",
+                "createTitle": "Créer un nouveau LOV",
+                "updateTitle": "Mettre à jour le LOV",
+                "nameLabel": "Nom*",
+                "codeLabel": "Code",
+                "descriptionLabel": "Description",
+                "statusLabel": "Statut",
+                "activeStatus": "Actif",
+                "inactiveStatus": "Inactif",
+                "saveButton": "Enregistrer",
+                "cancelButton": "Annuler",
+                "tagsSection": "Tags",
+                "descriptionPlaceholder": "Entrez une description ici",
+                "columnNamePlaceholder": "Nom de colonne*",
+                "selectTypePlaceholder": "Sélectionnez un type",
+                "uniqueLabel": "U",
+                "notUniqueLabel": "NU",
+                "defaultValuePlaceholder": "Valeur par défaut",
+                "stylePlaceholder": "Style",
+                "addColumnButton": "Ajouter col",
+                "createButton": "Créer"
+            },
+            "tooltips": {
+                "hideColumnName": "Cocher pour masquer le nom de la colonne",
+                "columnName": "Nom de colonne",
+                "columnType": "Type de données de la colonne",
+                "columnUniqueness": "Unicité des valeurs de colonne",
+                "columnDefaultValue": "Valeur par défaut de la colonne",
+                "columnStyle": "Style de la colonne",
+                "columnDescription": "Description de la colonne"
+            },
+            "errors": {
+                "requiredField": "Ce champ est obligatoire",
+                "invalidFormat": "Format invalide",
+                "saveError": "Erreur lors de la sauvegarde du LOV"
+            },
+            "confirmations": {
+                "deleteTitle": "Supprimer LOV",
+                "deleteMessage": "Êtes-vous sûr de vouloir supprimer ce LOV ?",
+                "deleteConfirm": "Oui",
+                "deleteCancel": "Non",
+                "deleteRowMessage": "Êtes-vous sûr de vouloir supprimer cette ligne ?"
+            },
+            "notifications": {
+                "rowDeleted": "Ligne supprimée avec succès.",
+                "saveToDeleteHint": "Pour supprimer définitivement, cliquez sur le bouton 'Enregistrer'.",
+                "lovSaved": "LOV '{{lovName}}' enregistré avec succès."
+            }
+        }
+    }
+} 

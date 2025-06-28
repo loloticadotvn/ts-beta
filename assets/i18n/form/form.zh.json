@@ -1,0 +1,200 @@
+{
+  "formModule": {
+    "dialogs": {
+      "share": {
+        "header": "分享表单",
+        "fromForm": "从表单",
+        "toText": "到文本",
+        "whoSeeText": "谁可以看到文本",
+        "selectAudience": "选择受众",
+        "cancel": "取消",
+        "create": "创建"
+      },
+      "createManual": {
+        "header": "手动创建表单",
+        "formName": "表单名称",
+        "namePlaceholder": "在此输入名称",
+        "nameRequired": "名称为必填项。",
+        "description": "描述",
+        "descriptionPlaceholder": "在此输入描述",
+        "cancel": "取消",
+        "create": "创建"
+      },
+      "createJson": {
+        "header": "从JSON创建表单",
+        "formName": "表单名称",
+        "namePlaceholder": "标题",
+        "description": "描述",
+        "descriptionPlaceholder": "在此输入描述",
+        "jsonInstructions": "复制并粘贴您的JSON数据以在下面的文本框中创建问题",
+        "cancel": "取消",
+        "create": "创建"
+      },
+      "createAi": {
+        "header": "使用AI创建表单",
+        "quizName": "测验名称*",
+        "namePlaceholder": "在此输入名称",
+        "nameRequired": "名称为必填项。",
+        "prompt": "提示*",
+        "promptPlaceholder": "在此输入提示",
+        "promptRequired": "提示为必填项。",
+        "description": "描述",
+        "descriptionPlaceholder": "在此输入描述",
+        "cancel": "取消",
+        "create": "创建"
+      }
+    },
+    "sidebar": {
+      "addNewForm": "添加新表单",
+      "menu": {
+        "manual": "手动测验表单",
+        "json": "通过JSON测验表单",
+        "ai": "通过AI测验表单"
+      }
+    },
+    "preview": {
+      "works": "表单预览工作正常！",
+      "totalQuestions": "总问题数：{{count}}",
+      "correctAnswers": "正确答案：{{count}}",
+      "choice": {
+        "expectedAnswerTooltip": "预期答案",
+        "pointsLabel": "分数：{{points}}",
+        "pointsLabelText": "分数",
+        "requiredLabel": "必填",
+        "answerButton": "回答"
+      },
+      "dragDrop": {
+        "questionHeaderDefault": "问题",
+        "expectationHeaderDefault": "期望"
+      },
+      "matchPair": {},
+      "resultCorrect": "正确",
+      "resultIncorrect": "错误"
+    },
+    "copy": {
+      "works": "表单复制工作正常！"
+    },
+    "share": {
+      "works": "表单分享工作正常！"
+    },
+    "messages": {
+      "formCreated": "已创建表单：{{title}}",
+      "formFailed": "无法创建表单：{{title}}",
+      "formCreating": "正在创建表单：{{title}}",
+      "formCreatingNotice": "表单构建完成后，您将收到通知！",
+      "textCreated": "已创建文本：{{title}}",
+      "textFailed": "无法创建文本：{{title}}"
+    },
+    "detailSidebar": {
+      "unlock": "解锁",
+      "lock": "锁定",
+      "save": "保存",
+      "copy": "复制",
+      "share": "分享",
+      "delete": "删除",
+      "bookmark": "书签",
+      "confirmDeleteHeader": "删除确认",
+      "confirmDeleteMessage": "您要删除表单：{{title}} 吗？",
+      "messageConfirmed": "已确认",
+      "messageDeleted": "已删除表单：{{title}}"
+    },
+    "detailHome": {
+      "titlePlaceholder": "表单标题",
+      "insertImageTooltip": "插入图片",
+      "aiPromptNotice": "测验是由以下提示创建的：<b>{{prompt}}</b>",
+      "realtimeCheckbox": "允许实时测验",
+      "addNewQuestionButton": "添加新问题",
+      "tabs": {
+        "questions": "问题",
+        "preview": "预览",
+        "settings": "设置"
+      },
+      "addMenu": {
+        "choices": "选择",
+        "yesNo": "是 / 否",
+        "dragDrop": "拖放",
+        "matchPair": "配对"
+      },
+      "contextMenu": {
+        "title": "问题菜单",
+        "addNew": "添加新问题",
+        "delete": "删除此问题",
+        "moveUp": "上移问题",
+        "moveDown": "下移问题"
+      },
+      "menu": {
+        "addChoice": "选择题",
+        "addYesNo": "是/否题",
+        "addDragDrop": "拖放题",
+        "addMatchPair": "配对题",
+        "addFromJson": "从JSON添加问题"
+      }
+    },
+    "detailShare": {
+      "works": "表单详细信息共享工作正常！"
+    },
+    "detailNew": {
+      "works": "表单新详细信息工作正常！"
+    },
+    "questionTypes": {
+      "choice": {
+        "questionPlaceholder": "问题文本",
+        "insertImageTooltip": "插入图片",
+        "openRichEditorTooltip": "打开富文本编辑器",
+        "multipleAnswersLabel": "多项答案",
+        "addNewChoiceButton": "添加新选项",
+        "choicePlaceholder": "选项文本",
+        "removeChoiceTooltip": "删除此选项",
+        "markCorrectTooltip": "将此选项标记为正确",
+        "confirmDeleteOptionMessage": "您要删除此选项吗？",
+        "optionDeletedMessage": "此选项已从当前问题中删除",
+        "pointsLabelAddon": "分数",
+        "requiredLabelSwitch": "必填",
+        "commentTooltip": "添加评论/反馈",
+        "moreOptionsTooltip": "更多问题选项"
+      },
+      "dragDrop": {
+        "questionPlaceholder": "问题文本",
+        "insertImageTooltip": "插入图片",
+        "openRichEditorTooltip": "打开富文本编辑器",
+        "wordPlaceholder": "单词文本",
+        "removeWordTooltip": "删除此单词",
+        "addNewWordButton": "添加新单词",
+        "confirmDeleteWordMessage": "您要删除此单词吗？",
+        "wordDeletedMessage": "此单词已从当前问题中删除"
+      },
+      "matchPair": {
+        "questionPlaceholder": "问题文本",
+        "insertImageTooltip": "插入图片",
+        "openRichEditorTooltip": "打开富文本编辑器",
+        "leftPairPlaceholder": "左侧配对",
+        "rightPairPlaceholder": "右侧配对",
+        "removePairTooltip": "删除此配对",
+        "addNewPairButton": "添加新配对",
+        "confirmDeletePairMessage": "您要删除此配对吗？",
+        "pairDeletedMessage": "此配对已从当前问题中删除"
+      }
+    },
+    "list": {
+       "title": "表单列表",
+       "searchPlaceholder": "在表格中搜索",
+       "filter": {
+         "createdByHeader": "创建者",
+         "anyPlaceholder": "任何"
+       },
+       "column": {
+         "category": "类别",
+         "title": "标题",
+         "createdBy": "创建者",
+         "realtime": "实时",
+         "createdAt": "创建于",
+         "updatedAt": "更新于"
+       },
+       "contextMenu": {
+         "title": "表单菜单",
+         "deleteConfirm": "删除{{username}}的表单 '{title}'?",
+         "share": "分享给"
+       }
+    }
+  }
+} 

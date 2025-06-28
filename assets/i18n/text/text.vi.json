@@ -1,0 +1,148 @@
+{
+    "shared": {
+      "column": {
+        "category": "Thể loại",
+        "title": "Tiêu đề",
+        "createdBy": "Tạo bởi",
+        "createdAt": "Tạo lúc",
+        "updatedAt": "Cập nhật lúc"
+      }
+    },
+    "textModule": {
+      "routing": {
+        "list": "Danh sách",
+        "detail": "Chi tiết"
+      },
+      "list": {
+        "title": "Danh sách văn bản",
+        "sidebar": {
+          "sharedByMe": "Do tôi chia sẻ",
+          "sharedByFriends": "Bạn bè chia sẻ",
+          "sharedByPublic": "Công khai chia sẻ"
+        },
+        "home": {
+          "table": {
+            "searchPlaceholder": "Tìm kiếm trong bảng",
+            "filter": {
+              "createdByHeader": "Tạo bởi",
+              "anyPlaceholder": "Bất kỳ"
+            },
+            "columns": {
+              "category": "Thể loại",
+              "audience": "Đối tượng",
+              "title": "Tiêu đề",
+              "createdBy": "Tạo bởi",
+              "realtime": "Thời gian thực",
+              "createdAt": "Tạo lúc",
+              "updatedAt": "Cập nhật lúc"
+            },
+            "contextMenu": {
+              "archive": "Lưu trữ",
+              "spam": "Thư rác",
+              "textMenu": "Menu văn bản",
+              "deleteTextConfirmationMsg": "Xóa văn bản '{{title}}' của {{username}}?",
+              "assignment": "Phân công",
+              "shareTextDialogHeader": "Chia sẻ văn bản"
+            }
+          },
+          "confirmations": {
+            "deleteTextMessage": "Bạn có muốn xóa văn bản '{{title}}' của {{username}} không?"
+          },
+          "toast": {
+            "deletedTextDetail": "Đã xóa văn bản: {{title}}",
+            "errorDeletingTextDetail": "Lỗi khi xóa văn bản: {{title}}"
+          }
+        }
+      },
+      "detail": {
+        "home": {},
+        "sidebar": {},
+        "quiz": {
+          "sidebar": {
+            "shareQuizDialogHeader": "Chia sẻ bài kiểm tra",
+            "pingPongInfo": "Đây là dạng câu hỏi - trả lời ping-pong",
+            "confirmations": {
+              "deleteQuizMessage": "Bạn có muốn xóa bài kiểm tra: {{title}} không?"
+            },
+            "toast": {
+              "deletedQuizDetail": "Đã xóa bài kiểm tra: {{title}}",
+              "errorDeletingQuizDetail": "Lỗi khi xóa bài kiểm tra: {{title}}"
+            },
+            "buttonFinishExam": "Kết thúc bài kiểm tra",
+            "buttonSave": "Lưu",
+            "menu": {
+              "assignment": "Phân công",
+              "startExam": "Bắt đầu kiểm tra",
+              "copy": "Sao chép",
+              "share": "Chia sẻ",
+              "delete": "Xóa",
+              "bookmark": "Đánh dấu"
+            }
+          }
+        },
+        "confirmations": {
+          "dataMigrationTitle": "Di chuyển dữ liệu",
+          "dataMigrationMessage": "Có lỗi dữ liệu. Chọn 'Yes' để sửa lỗi!"
+        }
+      },
+      "dialogs": {
+        "copyText": {
+          "works": "Sao chép văn bản thành công!"
+        },
+        "sendEmail": {
+          "works": "Gửi email thành công!"
+        },
+        "shareText": {
+          "labelSelected": "1 văn bản được chọn",
+          "placeholderTitle": "Tiêu đề",
+          "labelAddToExam": "Thêm vào bài kiểm tra",
+          "labelWhoSees": "Ai có thể thấy văn bản",
+          "placeholderAudience": "Chọn đối tượng",
+          "helpCopySource": "Vì bạn đang sao chép từ nguồn khác nên nguồn gốc sẽ hiển thị trong văn bản của bạn!",
+          "helpUsernameUnavailable": "Tên người dùng không khả dụng",
+          "buttonCancel": "Hủy",
+          "buttonCopy": "Sao chép"
+        },
+        "createExam": {
+          "labelSelected": "1 văn bản được chọn",
+          "labelExamCode": "Mã bài kiểm tra",
+          "placeholderExamCode": "Mã bài kiểm tra",
+          "labelExamName": "Tên bài kiểm tra",
+          "labelAssignTo": "Giao cho",
+          "checkboxIncludesMe": "Bao gồm tôi",
+          "placeholderGroup": "Chọn nhóm",
+          "placeholderSearchName": "Tìm theo tên",
+          "helpCopySource": "Vì bạn đang sao chép từ nguồn khác nên nguồn gốc sẽ hiển thị trong văn bản của bạn!",
+          "helpUsernameUnavailable": "Tên người dùng không khả dụng",
+          "onDemandInfo": "Người được giao có thể bắt đầu kiểm tra bất kỳ lúc nào",
+          "scheduledInfo": "Người được giao có thể bắt đầu kiểm tra trong khung giờ được định sẵn",
+          "labelStartTime": "Thời gian bắt đầu",
+          "labelFinishTime": "Thời gian kết thúc",
+          "buttonCancel": "Hủy",
+          "tabOnDemand": "Theo yêu cầu",
+          "tabScheduled": "Đã lên lịch",
+          "buttonOnDemand": "Tạo kiểm tra theo yêu cầu",
+          "buttonScheduled": "Tạo kiểm tra đã lên lịch",
+          "dialogExamCodesHeader": "Danh sách mã kiểm tra",
+          "placeholderSelectCode": "Chọn mã",
+          "tableHeaderCode": "Mã",
+          "tableHeaderTitle": "Tiêu đề",
+          "tableHeaderAssignTo": "Giao cho",
+          "buttonUseCode": "Dùng mã này"
+        }
+      },
+      "sharedComponents": {
+        "appPreview": {
+          "title": " "
+        },
+        "baseComponent": {
+          "deleteConfirmationHeader": "Xác nhận xóa"
+        }
+      }
+    },
+    "categories": {
+      "QUIZ": "VI: Quiz",
+      "ARTICLE": "VI: Article",
+      "NOTE": "VI: Note"
+    }
+  }  

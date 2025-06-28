@@ -1,0 +1,29 @@
+{
+  "historyModule": {
+    "list": {
+      "pageTitle": "Liste des historiques",
+      "searchPlaceholder": "Rechercher dans le tableau",
+      "columns": {
+        "no": "N°",
+        "type": "Type",
+        "title": "Titre",
+        "createdBy": "Créé par",
+        "createdAt": "Créé le",
+        "updatedAt": "Mis à jour le"
+      },
+      "filter": {
+        "createdBy": {
+          "header": "Créé par",
+          "placeholder": "N'importe lequel"
+        }
+      },
+      "contextMenu": {
+        "title": "Menu historique"
+      }
+    },
+    "breadcrumb": {
+      "list": "Liste",
+      "detail": "Détail"
+    }
+  }
+} 

@@ -1,0 +1,148 @@
+{
+    "shared": {
+      "column": {
+        "category": "Catégorie",
+        "title": "Titre",
+        "createdBy": "Créé par",
+        "createdAt": "Créé le",
+        "updatedAt": "Mis à jour le"
+      }
+    },
+    "textModule": {
+      "routing": {
+        "list": "Liste",
+        "detail": "Détail"
+      },
+      "list": {
+        "title": "Liste de textes",
+        "sidebar": {
+          "sharedByMe": "Partagé par moi",
+          "sharedByFriends": "Partagé par mes amis",
+          "sharedByPublic": "Partagé publiquement"
+        },
+        "home": {
+          "table": {
+            "searchPlaceholder": "Rechercher dans le tableau",
+            "filter": {
+              "createdByHeader": "Créé par",
+              "anyPlaceholder": "N'importe lequel"
+            },
+            "columns": {
+              "category": "Catégorie",
+              "audience": "Audience",
+              "title": "Titre",
+              "createdBy": "Créé par",
+              "realtime": "Temps réel",
+              "createdAt": "Créé le",
+              "updatedAt": "Mis à jour le"
+            },
+            "contextMenu": {
+              "archive": "Archiver",
+              "spam": "Spam",
+              "textMenu": "Menu texte",
+              "deleteTextConfirmationMsg": "Supprimer le texte '{{title}}' de {{username}} ?",
+              "assignment": "Affectation",
+              "shareTextDialogHeader": "Partager le texte"
+            }
+          },
+          "confirmations": {
+            "deleteTextMessage": "Souhaitez-vous supprimer le texte '{{title}}' de {{username}} ?"
+          },
+          "toast": {
+            "deletedTextDetail": "Texte supprimé : {{title}}",
+            "errorDeletingTextDetail": "Erreur lors de la suppression du texte : {{title}}"
+          }
+        }
+      },
+      "detail": {
+        "home": {},
+        "sidebar": {},
+        "quiz": {
+          "sidebar": {
+            "shareQuizDialogHeader": "Partager le quiz",
+            "pingPongInfo": "Ceci est une question-réponse en ping-pong",
+            "confirmations": {
+              "deleteQuizMessage": "Souhaitez-vous supprimer le quiz : {{title}} ?"
+            },
+            "toast": {
+              "deletedQuizDetail": "Quiz supprimé : {{title}}",
+              "errorDeletingQuizDetail": "Erreur lors de la suppression du quiz : {{title}}"
+            },
+            "buttonFinishExam": "Terminer l'examen",
+            "buttonSave": "Enregistrer",
+            "menu": {
+              "assignment": "Affectation",
+              "startExam": "Commencer l'examen",
+              "copy": "Copier",
+              "share": "Partager",
+              "delete": "Supprimer",
+              "bookmark": "Favoris"
+            }
+          }
+        },
+        "confirmations": {
+          "dataMigrationTitle": "Migration des données",
+          "dataMigrationMessage": "Il y a un problème de données. Acceptez pour corriger !"
+        }
+      },
+      "dialogs": {
+        "copyText": {
+          "works": "Copie du texte réussie !"
+        },
+        "sendEmail": {
+          "works": "Envoi de l'e-mail réussi !"
+        },
+        "shareText": {
+          "labelSelected": "1 texte sélectionné",
+          "placeholderTitle": "Titre",
+          "labelAddToExam": "Ajouter à l'examen",
+          "labelWhoSees": "Qui peut voir le texte",
+          "placeholderAudience": "Sélectionnez une audience",
+          "helpCopySource": "Comme vous copiez depuis une autre source, la source sera affichée dans votre texte copié !",
+          "helpUsernameUnavailable": "Nom d'utilisateur indisponible",
+          "buttonCancel": "Annuler",
+          "buttonCopy": "Copier"
+        },
+        "createExam": {
+          "labelSelected": "1 texte sélectionné",
+          "labelExamCode": "Code de l'examen",
+          "placeholderExamCode": "Code de l'examen",
+          "labelExamName": "Nom de l'examen",
+          "labelAssignTo": "Affecter à",
+          "checkboxIncludesMe": "Inclure moi",
+          "placeholderGroup": "Sélectionner un groupe",
+          "placeholderSearchName": "Rechercher par nom",
+          "helpCopySource": "Comme vous copiez depuis une autre source, la source sera affichée dans votre texte copié !",
+          "helpUsernameUnavailable": "Nom d'utilisateur indisponible",
+          "onDemandInfo": "Les personnes assignées peuvent commencer l'examen à tout moment",
+          "scheduledInfo": "Les personnes assignées peuvent commencer l'examen à l'heure définie",
+          "labelStartTime": "Heure de début",
+          "labelFinishTime": "Heure de fin",
+          "buttonCancel": "Annuler",
+          "tabOnDemand": "À la demande",
+          "tabScheduled": "Planifié",
+          "buttonOnDemand": "Créer à la demande",
+          "buttonScheduled": "Créer planifié",
+          "dialogExamCodesHeader": "Liste des codes d'examen",
+          "placeholderSelectCode": "Sélectionner un code",
+          "tableHeaderCode": "Code",
+          "tableHeaderTitle": "Titre",
+          "tableHeaderAssignTo": "Affecté à",
+          "buttonUseCode": "Utiliser ce code"
+        }
+      },
+      "sharedComponents": {
+        "appPreview": {
+          "title": " "
+        },
+        "baseComponent": {
+          "deleteConfirmationHeader": "Confirmer la suppression"
+        }
+      }
+    },
+    "categories": {
+      "QUIZ": "FR: Quiz",
+      "ARTICLE": "FR: Article",
+      "NOTE": "FR: Note"
+    }
+  }  

@@ -1,0 +1,89 @@
+{
+    "articleModule": {
+        "list": {
+            "labels": {
+                "breadcrumb": "Списък",
+                "title": "Статии",
+                "sortByPlaceholder": "Сортиране по",
+                "recentArticlesTitle": "Последни статии",
+                "recentArticlesDescription": "[BG] Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "categoryAnimals": "Животни",
+                "articleTitleAnimals": "[BG] Why Earth's most beloved creatures are headed toward extinction",
+                "placeholderTextLorem": "[BG] Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "categoryOxygen": "Кислород",
+                "articleTitleOxygen": "[BG] Only one-third of tropical rainforests remain intact, study says",
+                "categoryNature": "Природа",
+                "articleTitleNature": "[BG] Does planting a tree really offset your carbon footprint?"
+            },
+            "sortOptions": {
+                "mostShared": "Най-споделяни",
+                "mostCommented": "Най-коментирани"
+            },
+            "errors": {
+                "loadErrorTitle": "Грешка при зареждане"
+            },
+            "card": {
+                "menuItems": {
+                    "bookmark": "Отметка",
+                    "editPost": "Редактиране на статия",
+                    "deletePost": "Изтриване на статия"
+                },
+                "confirmations": {
+                    "deletePrefix": "Искате ли да изтриете статията: "
+                }
+            }
+        },
+        "detail": {
+            "labels": {
+                "breadcrumb": "Детайли",
+                "previewChip": "Преглед",
+                "editPostButton": "Редактиране на статия",
+                "commentsTitle": "Коментари",
+                "postCommentTitle": "Публикуване на коментар",
+                "namePlaceholder": "Име",
+                "emailPlaceholder": "Имейл",
+                "commentPlaceholder": "Вашият коментар",
+                "postCommentButton": "Публикувай коментар"
+            },
+            "errors": {
+                "noIdTitle": "Няма прикачен ID",
+                "noIdDetail": "Не може да се зареди статия без ID",
+                "loadErrorTitle": "Грешка при зареждане"
+            }
+        },
+        "edit": {
+            "labels": {
+                "breadcrumb": "Редактиране",
+                "createTitle": "Създаване на нова статия",
+                "updateTitle": "Актуализиране на статията",
+                "fileUploadPrompt": "Плъзнете или изберете изображение за корица",
+                "titlePlaceholder": "Заглавие*",
+                "descriptionPlaceholder": "Описание",
+                "contentPlaceholder": "Съдържание*",
+                "propertiesTab": "Свойства",
+                "galleriaTab": "Галерия",
+                "publishSection": "Публикуване",
+                "statusLabel": "Статус:",
+                "statusValueDraft": "Чернова",
+                "tagsSection": "Етикети",
+                "metaSection": "Мета",
+                "uploadButton": "Качване",
+                "deleteButton": "Изтриване",
+                "publishButton": "Публикуване",
+                "publishAndNewButton": "Публикуване и нова"
+            },
+            "notifications": {
+                "imageUploadTitle": "Качване на изображение",
+                "imageUploadSuccess": "Качването успешно!",
+                "imageUploadErrorPrefix": "Неуспешно качване на файла за аватар"
+            },
+            "confirmations": {
+                "publishPrefix": "Искате ли да публикувате статията: ",
+                "deletePrefix": "Искате ли да изтриете статията: "
+            },
+            "errors": {
+                "loadErrorTitle": "Грешка при зареждане"
+            }
+        }
+    }
+} 

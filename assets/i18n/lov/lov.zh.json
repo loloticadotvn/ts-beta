@@ -1,0 +1,142 @@
+{
+    "lovModule": {
+        "list": {
+            "labels": {
+                "breadcrumb": "列表",
+                "title": "值列表",
+                "addNewButton": "添加新LOV"
+            },
+            "sidebar": {
+                "labels": {
+                    "createdByMe": "我创建的",
+                    "createdByFriends": "我的朋友创建的",
+                    "createdByPublic": "公开创建的"
+                }
+            },
+            "errors": {
+                "loadErrorTitle": "加载错误"
+            }
+        },
+        "home": {
+            "columns": {
+                "name": "名称",
+                "audience": "受众",
+                "createdBy": "创建者",
+                "createdAt": "创建时间",
+                "updatedAt": "更新时间"
+            },
+            "menus": {
+                "title": "LOV 菜单",
+                "duplicate": "复制 LOV '{{itemName}}'",
+                "delete": "删除 LOV '{{itemName}}'",
+                "setup": "设置 LOV '{{itemName}}'"
+            }
+        },
+        "detail": {
+            "labels": {
+                "breadcrumb": "详情",
+                "editButton": "编辑",
+                "deleteButton": "删除",
+                "rowContextMenuTitle": "行操作",
+                "createdBy": "创建者"
+            },
+            "tooltips": {
+                "editTable": "编辑表格",
+                "saveTable": "保存表格",
+                "uniqueValueHint": "只允许唯一值!. "
+            },
+            "placeholders": {
+                "any": "任何",
+                "enterValue": "输入值",
+                "enterCsvData": "输入CSV数据",
+                "enterPrompt": "输入提示"
+            },
+            "buttons": {
+                "import": "导入"
+            },
+            "dialogs": {
+                "importCsvTitle": "从CSV导入数据",
+                "importCsvDescription": "CSV数据包含行。每行中的列以逗号分隔。",
+                "importAiTitle": "从AI导入数据"
+            },
+            "menus": {
+                "addRow": "添加新行",
+                "rowMenuTitle": "LOV行菜单",
+                "deleteRow": "删除此行",
+                "saveLov": "保存LOV '{{lovName}}'",
+                "importCsv": "从CSV导入",
+                "importAi": "从AI导入"
+            },
+            "notifications": {
+                "confirmed": "已确认",
+                "rowDeleted": "此行已从当前LOV中删除！",
+                "lovSavedDetail": "LOV已保存",
+                "dataCreationTitle": "数据创建",
+                "dataGeneratedSuccess": "LOV '{{lovName}}' 的数据已由GenAI生成！",
+                "dataGeneratedError": "为LOV '{{lovName}}' 生成数据失败！"
+            },
+            "confirmations": {
+                "deleteRowContents": "您确定要删除此行及其内容吗？.",
+                "saveToDeleteHint": "<br/> 要永久删除，您需要单击\"保存\"按钮！"
+            },
+            "errors": {
+                "noIdTitle": "未附加ID",
+                "noIdDetail": "无法在没有ID的情况下获取LOV",
+                "loadErrorTitle": "加载错误",
+                "lovSaveFailed": "LOV保存失败",
+                "csvColumnMismatch": "无法插入剩余行，因为每行的总列数不等于预定义的总列数 = "
+            }
+        },
+        "edit": {
+            "labels": {
+                "breadcrumb": "编辑",
+                "createTitle": "创建新LOV",
+                "updateTitle": "更新LOV",
+                "nameLabel": "名称*",
+                "codeLabel": "代码",
+                "descriptionLabel": "描述",
+                "statusLabel": "状态",
+                "activeStatus": "活跃",
+                "inactiveStatus": "非活跃",
+                "saveButton": "保存",
+                "cancelButton": "取消",
+                "tagsSection": "标签",
+                "descriptionPlaceholder": "在此输入描述",
+                "columnNamePlaceholder": "列名*",
+                "selectTypePlaceholder": "选择类型",
+                "uniqueLabel": "唯一",
+                "notUniqueLabel": "非唯一",
+                "defaultValuePlaceholder": "默认值",
+                "stylePlaceholder": "样式",
+                "addColumnButton": "添加列",
+                "createButton": "创建"
+            },
+            "tooltips": {
+                "hideColumnName": "选中以隐藏列名",
+                "columnName": "列名",
+                "columnType": "列的数据类型",
+                "columnUniqueness": "列值的唯一性",
+                "columnDefaultValue": "列的默认值",
+                "columnStyle": "列的样式",
+                "columnDescription": "列的描述"
+            },
+            "errors": {
+                "requiredField": "此字段为必填项",
+                "invalidFormat": "格式无效",
+                "saveError": "保存LOV时出错"
+            },
+            "confirmations": {
+                "deleteTitle": "删除LOV",
+                "deleteMessage": "您确定要删除此LOV吗？",
+                "deleteConfirm": "是",
+                "deleteCancel": "否",
+                "deleteRowMessage": "您确定要删除此行吗？"
+            },
+            "notifications": {
+                "rowDeleted": "行已成功删除。",
+                "saveToDeleteHint": "要永久删除，请单击\"保存\"按钮。",
+                "lovSaved": "LOV '{{lovName}}' 已成功保存。"
+            }
+        }
+    }
+}

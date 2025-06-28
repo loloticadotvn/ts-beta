@@ -1,0 +1,72 @@
+{
+  "pomodoroModule": {
+    "task": {
+      "dialogs": {
+        "edit": {
+          "header": "编辑番茄钟任务",
+          "placeholder": "新倒计时任务",
+          "cancelButton": "取消",
+          "saveButton": "保存"
+        },
+        "changeTask": {
+          "header": "更改任务？",
+          "content": "需要先停止当前正在进行的任务，然后才能专注于此任务。"
+        },
+        "deleteTask": {
+          "header": "删除任务？",
+          "content": "需要先停止当前正在进行的任务，然后才能专注于它。"
+        },
+        "confirmDelete": {
+            "header": "确认",
+            "message": "您确定要删除此任务吗？",
+            "rejectLabel": "否",
+            "acceptLabel": "是",
+            "acceptMessageSummary": "删除确认",
+            "acceptMessageDetail": "任务已成功删除",
+            "rejectMessageSummary": "已拒绝",
+            "rejectMessageDetail": "您已拒绝"
+        }
+      },
+      "form": {
+        "addTaskPlaceholder": "新番茄钟任务",
+        "addButton": "添加"
+      },
+      "labels": {
+        "totalTimeSpent": "显示任务的总花费时间："
+      },
+      "table": {
+        "searchPlaceholder": "在表格中搜索",
+        "saveTooltip": "保存",
+        "headerTask": "任务",
+        "headerCreatedAt": "创建于",
+        "headerTimeSpent": "花费时间",
+        "dragTooltip": "向上/向下拖动",
+        "focusTimeTooltip": "专注花费时间",
+        "makeDoneTooltip": "标记为完成！",
+        "taskIsDoneTooltip": "任务已完成！",
+        "duplicateTooltip": "复制它！",
+        "removeTooltip": "移除它！",
+        "headerLap": "圈数",
+        "headerStart": "开始",
+        "headerStop": "停止",
+        "delayedStopTooltip": "延迟停止时间："
+      },
+      "knob": {
+        "noTaskHeader": "无任务",
+        "relaxTimeLabel": "休息时间",
+        "focusTimeLabel": "专注时间",
+        "startTooltip": "启动秒表",
+        "stopTooltip": "停止秒表"
+      },
+      "searchOptions": {
+        "notDone": "任务：未完成",
+        "done": "任务：已完成",
+        "selecting": "任务：选择中"
+      },
+      "messages": {
+          "cannotSaveSummary": "无法保存",
+          "cannotSaveDetail": "保存前请停止您正在运行的任务"
+      }
+    }
+  }
+} 

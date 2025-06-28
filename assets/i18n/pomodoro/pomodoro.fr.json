@@ -1,0 +1,72 @@
+{
+  "pomodoroModule": {
+    "task": {
+      "dialogs": {
+        "edit": {
+          "header": "Modifier la tâche Pomodoro",
+          "placeholder": "Nouvelle tâche de compte à rebours",
+          "cancelButton": "Annuler",
+          "saveButton": "Sauvegarder"
+        },
+        "changeTask": {
+          "header": "Changer de tâche ?",
+          "content": "La tâche en cours doit être arrêtée avant de se concentrer sur cette tâche."
+        },
+        "deleteTask": {
+          "header": "Supprimer la tâche ?",
+          "content": "La tâche en cours doit être arrêtée avant de se concentrer dessus."
+        },
+        "confirmDelete": {
+            "header": "Confirmation",
+            "message": "Êtes-vous sûr de vouloir supprimer la tâche ?",
+            "rejectLabel": "Non",
+            "acceptLabel": "Oui",
+            "acceptMessageSummary": "Confirmation de suppression",
+            "acceptMessageDetail": "Tâche supprimée avec succès",
+            "rejectMessageSummary": "Rejeté",
+            "rejectMessageDetail": "Vous avez rejeté"
+        }
+      },
+      "form": {
+        "addTaskPlaceholder": "Nouvelle tâche pomodoro",
+        "addButton": "Ajouter"
+      },
+      "labels": {
+        "totalTimeSpent": "Temps total consacré aux tâches affichées :"
+      },
+      "table": {
+        "searchPlaceholder": "Rechercher dans le tableau",
+        "saveTooltip": "Sauvegarder",
+        "headerTask": "Tâche",
+        "headerCreatedAt": "Créé le",
+        "headerTimeSpent": "Temps consacré",
+        "dragTooltip": "Glisser vers le haut/bas",
+        "focusTimeTooltip": "Temps de concentration consacré",
+        "makeDoneTooltip": "Marquer comme terminé !",
+        "taskIsDoneTooltip": "Tâche terminée !",
+        "duplicateTooltip": "Dupliquer !",
+        "removeTooltip": "Supprimer !",
+        "headerLap": "Tour",
+        "headerStart": "Début",
+        "headerStop": "Arrêt",
+        "delayedStopTooltip": "heure d'arrêt retardée :"
+      },
+      "knob": {
+        "noTaskHeader": "Aucune tâche",
+        "relaxTimeLabel": "Temps de relaxation",
+        "focusTimeLabel": "Temps de concentration",
+        "startTooltip": "démarrer le chronomètre",
+        "stopTooltip": "arrêter le chronomètre"
+      },
+      "searchOptions": {
+        "notDone": "Tâches : Non terminées",
+        "done": "Tâches : Terminées",
+        "selecting": "Tâches : Sélection"
+      },
+      "messages": {
+          "cannotSaveSummary": "Impossible d'enregistrer",
+          "cannotSaveDetail": "Arrêtez votre tâche en cours avant d'enregistrer"
+      }
+    }
+  }
+} 

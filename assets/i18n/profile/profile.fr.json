@@ -1,0 +1,148 @@
+{
+  "profileModule": {
+    "list": {
+      "pageReport": "Affichage de {first} à {last} sur {totalRecords} entrées",
+      "globalSearchPlaceholder": "Recherche globale",
+      "addNewButton": "Ajouter nouveau",
+      "table": {
+        "nameHeader": "Nom",
+        "countryHeader": "Pays",
+        "joinDateHeader": "Date d'adhésion",
+        "createdByHeader": "Créé par",
+        "activityHeader": "Activité"
+      }
+    },
+    "create": {
+      "breadcrumb": "Créer",
+      "user": {
+        "title": "Créer un utilisateur",
+        "sectionTitle": "Profil",
+        "sectionDescription": "Odio euismod lacinia at quis risus sed vulputate odio.",
+        "nicknameLabel": "Surnom",
+        "avatarLabel": "Avatar",
+        "uploadImageButton": "Télécharger une image",
+        "bioLabel": "Bio",
+        "emailLabel": "Email",
+        "countryLabel": "Pays",
+        "selectCountryPlaceholder": "Sélectionnez un pays",
+        "cityLabel": "Ville",
+        "stateLabel": "État/Province",
+        "websiteLabel": "Site web",
+        "websiteAddon": "www",
+        "createUserButton": "Créer un utilisateur",
+        "countries": {
+          "AU": "Australie",
+          "BR": "Brésil",
+          "CN": "Chine",
+          "EG": "Égypte",
+          "FR": "France",
+          "DE": "Allemagne",
+          "IN": "Inde",
+          "JP": "Japon",
+          "ES": "Espagne",
+          "US": "États-Unis"
+        }
+      },
+      "group": {
+        "placeholder": "create-group fonctionne !"
+      },
+      "member": {
+        "title": "Créer un membre",
+        "description1": "Le membre sera géré par vous. Ex: Si le membre oublie son mot de passe, vous pouvez lui renvoyer un nouveau OTP.",
+        "description2": "Après la création, vous envoyez l'OTP généré à ce membre pour la connexion.",
+        "description3": "L'OTP n'est valide que 24 heures après la création du membre.",
+        "nameLabel": "Nom du membre",
+        "emailLabel": "Email",
+        "createMemberButton": "Créer un membre",
+        "table": {
+          "idHeader": "Id",
+          "nameHeader": "Nom",
+          "pinHeader": "PIN",
+          "emailHeader": "Email"
+        }
+      },
+      "sidebar": {
+        "createMember": "Créer un membre",
+        "createUser": "Créer un utilisateur",
+        "createGroup": "Créer un groupe"
+      }
+    },
+    "settings": {
+      "breadcrumb": "Paramètres",
+      "home": {
+        "cardHeader": "Infos utilisateur",
+        "title": "Paramètres du profil",
+        "usernameLabel": "Nom d'utilisateur",
+        "tokenLabel": "Jeton",
+        "tokenPlaceholder": "Jeton",
+        "loginEmailLabel": "Email de connexion",
+        "loginIdLabel": "Id de connexion",
+        "avatarLabel": "Avatar",
+        "changeAvatarButton": "Changer d'avatar",
+        "updateUserInfoButton": "Mettre à jour les informations utilisateur",
+        "passwordUpdateCardHeader": "Mise à jour du mot de passe",
+        "currentPasswordLabel": "Mot de passe actuel",
+        "newPasswordLabel": "Nouveau mot de passe",
+        "repeatNewPasswordLabel": "Répéter le nouveau mot de passe",
+        "passwordMismatchError": "Le nouveau mot de passe et la répétition du nouveau mot de passe ne correspondent pas.",
+        "changePasswordButton": "Changer le mot de passe",
+        "signInWithEmailCardHeader": "Se connecter avec l'Email",
+        "emailLabel": "Email",
+        "passwordLabel": "Mot de passe",
+        "repeatPasswordLabel": "Répéter le mot de passe",
+        "updateSignInMethodButton": "Mettre à jour la méthode de connexion"
+      }
+    },
+    "member": {
+      "breadcrumb": "Membre",
+      "list": {
+        "breadcrumb": "Liste",
+        "home": {
+          "searchPlaceholder": "Formulaire de recherche",
+          "table": {
+            "idHeader": "Id",
+            "nameHeader": "Nom",
+            "activatedHeader": "Activé",
+            "emailHeader": "Email",
+            "pinHeader": "PIN",
+            "avatarHeader": "Avatar",
+            "createdByHeader": "Créé par",
+            "updatedAtHeader": "Mis à jour le"
+          },
+          "trashTooltip": "Corbeille",
+          "deleteConfirmHeader": "Confirmation de suppression",
+          "deleteConfirmMessage": "Voulez-vous supprimer le membre : {memberName} ?"
+        },
+        "sidebar": {
+          "placeholder": "member-list-sidebar fonctionne !"
+        }
+      },
+      "detail": {
+        "breadcrumb": "Détail",
+        "home": {
+          "placeholder": "member-detail-home fonctionne !"
+        },
+        "sidebar": {
+          "placeholder": "member-detail-sidebar fonctionne !"
+        }
+      }
+    },
+    "notifications": {
+      "saveSuccessTitle": "Profil utilisateur",
+      "saveSuccessMessage": "Enregistré avec succès !",
+      "saveErrorTitle": "Profil utilisateur",
+      "saveErrorMessage": "Échec de l'enregistrement ! Erreur : {errorMessage}",
+      "uploadErrorTitle": "Téléchargement de fichier",
+      "uploadErrorMessage": "Échec du téléchargement du fichier d'avatar",
+      "copySuccessTitle": "Copier",
+      "copySuccessMessage": "Jeton copié dans le presse-papiers",
+      "changePasswordTitle": "Changer le mot de passe",
+      "changePasswordSuccessMessage": "Mot de passe mis à jour avec succès !",
+      "changePasswordErrorTitle": "Changer le mot de passe",
+      "passwordRulesTitle": "Règles du mot de passe",
+      "deleteSuccessTitle": "Succès",
+      "deleteSuccessMessage": "Membre {memberName} supprimé",
+      "deleteErrorTitle": "Erreur"
+    }
+  }
+}

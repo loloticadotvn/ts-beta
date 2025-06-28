@@ -1,0 +1,148 @@
+{
+  "shared": {
+    "column": {
+      "category": "Category",
+      "title": "Title",
+      "createdBy": "Created by",
+      "createdAt": "Created at",
+      "updatedAt": "Updated at"
+    }
+  },
+  "textModule": {
+    "routing": {
+      "list": "List",
+      "detail": "Detail"
+    },
+    "list": {
+      "title": "Text List",
+      "sidebar": {
+        "sharedByMe": "Shared by me",
+        "sharedByFriends": "Shared by my friends",
+        "sharedByPublic": "Shared by public"
+      },
+      "home": {
+        "table": {
+          "searchPlaceholder": "Search in table",
+          "filter": {
+            "createdByHeader": "Created By",
+            "anyPlaceholder": "Any"
+          },
+          "columns": {
+            "category": "Category",
+            "audience": "Audience",
+            "title": "Title",
+            "createdBy": "Created by",
+            "realtime": "Realtime",
+            "createdAt": "Created At",
+            "updatedAt": "Updated At"
+          },
+          "contextMenu": {
+            "archive": "Archive",
+            "spam": "Spam",
+            "textMenu": "Text menu",
+            "deleteTextConfirmationMsg": "Delete the text '{{title}}' of {{username}}?",
+            "assignment": "Assignment",
+            "shareTextDialogHeader": "Share text"
+          }
+        },
+        "confirmations": {
+           "deleteTextMessage": "Do you want to delete the text '{{title}}' of {{username}}?"
+        },
+        "toast": {
+          "deletedTextDetail": "Deleted the text: {{title}}",
+          "errorDeletingTextDetail": "Error deleting the text: {{title}}"
+        }
+      }
+    },
+    "detail": {
+      "home": {},
+      "sidebar": {},
+      "quiz": {
+        "sidebar": {
+          "shareQuizDialogHeader": "Share quiz",
+          "pingPongInfo": "This is a ping-pong question & answer",
+           "confirmations": {
+             "deleteQuizMessage": "Do you want to delete the quiz: {{title}}?"
+           },
+           "toast": {
+             "deletedQuizDetail": "Deleted the quiz: {{title}}",
+             "errorDeletingQuizDetail": "Error deleting the quiz: {{title}}"
+           },
+          "buttonFinishExam": "Finish Exam",
+          "buttonSave": "Save",
+          "menu": {
+            "assignment": "Assignment",
+            "startExam": "Start exam",
+            "copy": "Copy",
+            "share": "Share",
+            "delete": "Delete",
+            "bookmark": "Bookmark"
+          }
+        }
+      },
+      "confirmations": {
+        "dataMigrationTitle": "Data migration",
+        "dataMigrationMessage": "There is a data issue. Accept Yes to fix it!"
+      }
+    },
+    "dialogs": {
+      "copyText": {
+        "works": "Copy text works!"
+      },
+      "sendEmail": {
+        "works": "Send email works!"
+      },
+      "shareText": {
+        "labelSelected": "1 text selected",
+        "placeholderTitle": "Title",
+        "labelAddToExam": "Add to Exam",
+        "labelWhoSees": "Who see the text",
+        "placeholderAudience": "Select an Audience",
+        "helpCopySource": "As you are copying from other source so it will show the source on your copied text!",
+        "helpUsernameUnavailable": "Username is not available",
+        "buttonCancel": "Cancel",
+        "buttonCopy": "Copy"
+      },
+      "createExam": {
+        "labelSelected": "1 text selected",
+        "labelExamCode": "Exam code",
+        "placeholderExamCode": "Exam code",
+        "labelExamName": "Exam name",
+        "labelAssignTo": "Assign to",
+        "checkboxIncludesMe": "Includes me",
+        "placeholderGroup": "Select a Group",
+        "placeholderSearchName": "Search by name",
+        "helpCopySource": "As you are copying from other source so it will show the source on your copied text!",
+        "helpUsernameUnavailable": "Username is not available",
+        "onDemandInfo": "Assignees can start the exam at any time",
+        "scheduledInfo": "Assignees can start the exam at the pre-defined timeframe",
+        "labelStartTime": "Start time",
+        "labelFinishTime": "Finish time",
+        "buttonCancel": "Cancel",
+        "tabOnDemand": "On Demand",
+        "tabScheduled": "Scheduled",
+        "buttonOnDemand": "Create On Demand",
+        "buttonScheduled": "Create Scheduled",
+        "dialogExamCodesHeader": "List of Exam codes",
+        "placeholderSelectCode": "Select a Code",
+        "tableHeaderCode": "Code",
+        "tableHeaderTitle": "Title",
+        "tableHeaderAssignTo": "Assign to",
+        "buttonUseCode": "Use this code"
+      }
+    },
+    "sharedComponents": {
+        "appPreview": {
+            "title": " "
+        },
+        "baseComponent": {
+            "deleteConfirmationHeader": "Confirm Deletion"
+        }
+    },
+    "categories": {
+      "QUIZ": "Quiz",
+      "ARTICLE": "Article",
+      "NOTE": "Note"
+    }
+  }
+} 

@@ -1,0 +1,89 @@
+{
+    "articleModule": {
+        "list": {
+            "labels": {
+                "breadcrumb": "Danh sách",
+                "title": "Bài viết",
+                "sortByPlaceholder": "Sắp xếp theo",
+                "recentArticlesTitle": "Bài viết gần đây",
+                "recentArticlesDescription": "[VI] Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "categoryAnimals": "Động vật",
+                "articleTitleAnimals": "[VI] Why Earth's most beloved creatures are headed toward extinction",
+                "placeholderTextLorem": "[VI] Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "categoryOxygen": "Oxy",
+                "articleTitleOxygen": "[VI] Only one-third of tropical rainforests remain intact, study says",
+                "categoryNature": "Thiên nhiên",
+                "articleTitleNature": "[VI] Does planting a tree really offset your carbon footprint?"
+            },
+            "sortOptions": {
+                "mostShared": "Chia sẻ nhiều nhất",
+                "mostCommented": "Bình luận nhiều nhất"
+            },
+            "errors": {
+                "loadErrorTitle": "Lỗi tải dữ liệu"
+            },
+            "card": {
+                "menuItems": {
+                    "bookmark": "Đánh dấu",
+                    "editPost": "Sửa bài viết",
+                    "deletePost": "Xóa bài viết"
+                },
+                "confirmations": {
+                    "deletePrefix": "Bạn có muốn xóa bài viết: "
+                }
+            }
+        },
+        "detail": {
+            "labels": {
+                "breadcrumb": "Chi tiết",
+                "previewChip": "Xem trước",
+                "editPostButton": "Sửa bài viết",
+                "commentsTitle": "Bình luận",
+                "postCommentTitle": "Gửi bình luận",
+                "namePlaceholder": "Tên",
+                "emailPlaceholder": "Email",
+                "commentPlaceholder": "Bình luận của bạn",
+                "postCommentButton": "Gửi bình luận"
+            },
+            "errors": {
+                "noIdTitle": "Không có ID",
+                "noIdDetail": "Không thể lấy bài viết nếu không có ID",
+                "loadErrorTitle": "Lỗi tải dữ liệu"
+            }
+        },
+        "edit": {
+            "labels": {
+                "breadcrumb": "Chỉnh sửa",
+                "createTitle": "Tạo bài viết mới",
+                "updateTitle": "Cập nhật bài viết",
+                "fileUploadPrompt": "Kéo thả hoặc chọn ảnh bìa",
+                "titlePlaceholder": "Tiêu đề*",
+                "descriptionPlaceholder": "Mô tả",
+                "contentPlaceholder": "Nội dung*",
+                "propertiesTab": "Thuộc tính",
+                "galleriaTab": "Thư viện ảnh",
+                "publishSection": "Xuất bản",
+                "statusLabel": "Trạng thái:",
+                "statusValueDraft": "Bản nháp",
+                "tagsSection": "Thẻ",
+                "metaSection": "Meta",
+                "uploadButton": "Tải lên",
+                "deleteButton": "Xóa",
+                "publishButton": "Xuất bản",
+                "publishAndNewButton": "Xuất bản & Tạo mới"
+            },
+            "notifications": {
+                "imageUploadTitle": "Tải ảnh lên",
+                "imageUploadSuccess": "Tải lên thành công!",
+                "imageUploadErrorPrefix": "Không thể tải lên tệp ảnh đại diện"
+            },
+            "confirmations": {
+                "publishPrefix": "Bạn có muốn xuất bản bài viết: ",
+                "deletePrefix": "Bạn có muốn xóa bài viết: "
+            },
+            "errors": {
+                "loadErrorTitle": "Lỗi tải dữ liệu"
+            }
+        }
+    }
+} 

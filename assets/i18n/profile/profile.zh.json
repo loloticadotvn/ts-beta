@@ -1,0 +1,148 @@
+{
+  "profileModule": {
+    "list": {
+      "pageReport": "显示 {first} 到 {last} 条，共 {totalRecords} 条记录",
+      "globalSearchPlaceholder": "全局搜索",
+      "addNewButton": "新增",
+      "table": {
+        "nameHeader": "名称",
+        "countryHeader": "国家",
+        "joinDateHeader": "加入日期",
+        "createdByHeader": "创建者",
+        "activityHeader": "活动"
+      }
+    },
+    "create": {
+      "breadcrumb": "创建",
+      "user": {
+        "title": "创建用户",
+        "sectionTitle": "个人资料",
+        "sectionDescription": "Odio euismod lacinia at quis risus sed vulputate odio.",
+        "nicknameLabel": "昵称",
+        "avatarLabel": "头像",
+        "uploadImageButton": "上传图片",
+        "bioLabel": "简介",
+        "emailLabel": "电子邮件",
+        "countryLabel": "国家",
+        "selectCountryPlaceholder": "选择一个国家",
+        "cityLabel": "城市",
+        "stateLabel": "州/省",
+        "websiteLabel": "网站",
+        "websiteAddon": "www",
+        "createUserButton": "创建用户",
+        "countries": {
+          "AU": "澳大利亚",
+          "BR": "巴西",
+          "CN": "中国",
+          "EG": "埃及",
+          "FR": "法国",
+          "DE": "德国",
+          "IN": "印度",
+          "JP": "日本",
+          "ES": "西班牙",
+          "US": "美国"
+        }
+      },
+      "group": {
+        "placeholder": "create-group 工作正常！"
+      },
+      "member": {
+        "title": "创建成员",
+        "description1": "成员将由您管理。例如：如果成员忘记密码，您可以向他们重新发送新的 OTP。",
+        "description2": "创建后，您将生成的 OTP 发送给该成员以进行登录。",
+        "description3": "OTP 仅在成员创建后 24 小时内有效。",
+        "nameLabel": "成员姓名",
+        "emailLabel": "电子邮件",
+        "createMemberButton": "创建成员",
+        "table": {
+          "idHeader": "ID",
+          "nameHeader": "名称",
+          "pinHeader": "PIN",
+          "emailHeader": "电子邮件"
+        }
+      },
+      "sidebar": {
+        "createMember": "创建成员",
+        "createUser": "创建用户",
+        "createGroup": "创建群组"
+      }
+    },
+    "settings": {
+      "breadcrumb": "设置",
+      "home": {
+        "cardHeader": "用户信息",
+        "title": "个人资料设置",
+        "usernameLabel": "用户名",
+        "tokenLabel": "令牌",
+        "tokenPlaceholder": "令牌",
+        "loginEmailLabel": "登录邮箱",
+        "loginIdLabel": "登录 ID",
+        "avatarLabel": "头像",
+        "changeAvatarButton": "更换头像",
+        "updateUserInfoButton": "更新用户信息",
+        "passwordUpdateCardHeader": "密码更新",
+        "currentPasswordLabel": "当前密码",
+        "newPasswordLabel": "新密码",
+        "repeatNewPasswordLabel": "重复新密码",
+        "passwordMismatchError": "新密码和重复新密码不匹配。",
+        "changePasswordButton": "更改密码",
+        "signInWithEmailCardHeader": "使用电子邮件登录",
+        "emailLabel": "电子邮件",
+        "passwordLabel": "密码",
+        "repeatPasswordLabel": "重复密码",
+        "updateSignInMethodButton": "更新登录方式"
+      }
+    },
+    "member": {
+      "breadcrumb": "成员",
+      "list": {
+        "breadcrumb": "列表",
+        "home": {
+          "searchPlaceholder": "搜索表单",
+          "table": {
+            "idHeader": "ID",
+            "nameHeader": "名称",
+            "activatedHeader": "已激活",
+            "emailHeader": "电子邮件",
+            "pinHeader": "PIN",
+            "avatarHeader": "头像",
+            "createdByHeader": "创建者",
+            "updatedAtHeader": "更新于"
+          },
+          "trashTooltip": "垃圾箱",
+          "deleteConfirmHeader": "删除确认",
+          "deleteConfirmMessage": "您要删除成员：{memberName} 吗？"
+        },
+        "sidebar": {
+          "placeholder": "member-list-sidebar 工作正常！"
+        }
+      },
+      "detail": {
+        "breadcrumb": "详情",
+        "home": {
+          "placeholder": "member-detail-home 工作正常！"
+        },
+        "sidebar": {
+          "placeholder": "member-detail-sidebar 工作正常！"
+        }
+      }
+    },
+    "notifications": {
+      "saveSuccessTitle": "用户资料",
+      "saveSuccessMessage": "保存成功！",
+      "saveErrorTitle": "用户资料",
+      "saveErrorMessage": "保存失败！错误：{errorMessage}",
+      "uploadErrorTitle": "文件上传",
+      "uploadErrorMessage": "上传头像文件失败",
+      "copySuccessTitle": "复制",
+      "copySuccessMessage": "令牌已复制到剪贴板",
+      "changePasswordTitle": "更改密码",
+      "changePasswordSuccessMessage": "密码更新成功！",
+      "changePasswordErrorTitle": "更改密码",
+      "passwordRulesTitle": "密码规则",
+      "deleteSuccessTitle": "成功",
+      "deleteSuccessMessage": "成员 {memberName} 已删除",
+      "deleteErrorTitle": "错误"
+    }
+  }
+} 

@@ -1,0 +1,29 @@
+{
+  "historyModule": {
+    "list": {
+      "pageTitle": "Danh sách lịch sử",
+      "searchPlaceholder": "Tìm kiếm trong bảng",
+      "columns": {
+        "no": "STT",
+        "type": "Loại",
+        "title": "Tiêu đề",
+        "createdBy": "Người tạo",
+        "createdAt": "Ngày tạo",
+        "updatedAt": "Ngày cập nhật"
+      },
+      "filter": {
+        "createdBy": {
+          "header": "Người tạo",
+          "placeholder": "Bất kỳ"
+        }
+      },
+      "contextMenu": {
+        "title": "Menu lịch sử"
+      }
+    },
+    "breadcrumb": {
+      "list": "Danh sách",
+      "detail": "Chi tiết"
+    }
+  }
+} 

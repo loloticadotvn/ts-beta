@@ -1,0 +1,89 @@
+{
+    "articleModule": {
+        "list": {
+            "labels": {
+                "breadcrumb": "列表",
+                "title": "文章",
+                "sortByPlaceholder": "排序方式",
+                "recentArticlesTitle": "最近的文章",
+                "recentArticlesDescription": "[ZH] Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "categoryAnimals": "动物",
+                "articleTitleAnimals": "[ZH] Why Earth's most beloved creatures are headed toward extinction",
+                "placeholderTextLorem": "[ZH] Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "categoryOxygen": "氧气",
+                "articleTitleOxygen": "[ZH] Only one-third of tropical rainforests remain intact, study says",
+                "categoryNature": "自然",
+                "articleTitleNature": "[ZH] Does planting a tree really offset your carbon footprint?"
+            },
+            "sortOptions": {
+                "mostShared": "分享最多",
+                "mostCommented": "评论最多"
+            },
+            "errors": {
+                "loadErrorTitle": "加载错误"
+            },
+            "card": {
+                "menuItems": {
+                    "bookmark": "书签",
+                    "editPost": "编辑文章",
+                    "deletePost": "删除文章"
+                },
+                "confirmations": {
+                    "deletePrefix": "您想删除文章吗： "
+                }
+            }
+        },
+        "detail": {
+            "labels": {
+                "breadcrumb": "详情",
+                "previewChip": "预览",
+                "editPostButton": "编辑文章",
+                "commentsTitle": "评论",
+                "postCommentTitle": "发表评论",
+                "namePlaceholder": "姓名",
+                "emailPlaceholder": "电子邮件",
+                "commentPlaceholder": "您的评论",
+                "postCommentButton": "发表评论"
+            },
+            "errors": {
+                "noIdTitle": "未附加 ID",
+                "noIdDetail": "无法在没有 ID 的情况下获取文章",
+                "loadErrorTitle": "加载错误"
+            }
+        },
+        "edit": {
+            "labels": {
+                "breadcrumb": "编辑",
+                "createTitle": "创建新文章",
+                "updateTitle": "更新文章",
+                "fileUploadPrompt": "拖放或选择封面图片",
+                "titlePlaceholder": "标题*",
+                "descriptionPlaceholder": "描述",
+                "contentPlaceholder": "内容*",
+                "propertiesTab": "属性",
+                "galleriaTab": "图库",
+                "publishSection": "发布",
+                "statusLabel": "状态：",
+                "statusValueDraft": "草稿",
+                "tagsSection": "标签",
+                "metaSection": "元数据",
+                "uploadButton": "上传",
+                "deleteButton": "删除",
+                "publishButton": "发布",
+                "publishAndNewButton": "发布并新建"
+            },
+            "notifications": {
+                "imageUploadTitle": "图片上传",
+                "imageUploadSuccess": "上传成功！",
+                "imageUploadErrorPrefix": "上传头像文件失败"
+            },
+            "confirmations": {
+                "publishPrefix": "您想发布文章吗： ",
+                "deletePrefix": "您想删除文章吗： "
+            },
+            "errors": {
+                "loadErrorTitle": "加载错误"
+            }
+        }
+    }
+} 

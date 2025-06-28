@@ -1,0 +1,64 @@
+{
+  "examModule": {
+    "breadcrumbs": {
+      "list": "Liste",
+      "detail": "Détail"
+    },
+    "list": {
+      "title": "Liste des examens",
+      "home": { 
+        "table": {
+          "columns": {
+            "code": "Code",
+            "exam": "Examen",
+            "createdBy": "Créé par",
+            "assignTo": "Assigné à",
+            "progress": "Progression",
+            "stats": "Statistiques",
+            "totalPoints": "Points totaux",
+            "earnedPoints": "Points gagnés",
+            "result": "Résultat",
+            "realtime": "Temps réel",
+            "startTime": "Heure de début",
+            "endTime": "Heure de fin",
+            "lastSave": "Dernière sauvegarde"
+          }
+        },
+        "progress": {
+          "notStarted": "Pas encore commencé",
+          "inProgress": "En cours",
+          "finished": "Terminé"
+        },
+        "contextMenu": {
+          "title": "Menu Examen",
+          "deleteConfirm": "Supprimer l'examen '{{title}}' de {{username}} ?",
+          "edit": "Modifier cet examen",
+          "share": "Partager l'examen"
+        },
+        "dialog": {
+          "deleteConfirm": "Voulez-vous supprimer l'examen '{{title}}' assigné à {{username}} ?"
+        },
+        "statsDescription": "Total de réponses correctes : {{correct}} / Total de questions : {{total}}",
+        "placeholders": {
+          "selectQuiz": "Sélectionner un Quiz",
+          "searchTable": "Rechercher dans le tableau",
+          "any": "Quelconque"
+        },
+        "tooltips": {
+          "copyCode": "Copier le code"
+        }
+      }
+    },
+    "detail": {
+      "sidebar": {
+        "startExam": "Commencer l'examen",
+        "finishExam": "Terminer l'examen",
+        "save": "Enregistrer",
+        "pingPongInfo": "Ceci est une question et réponse de type ping-pong"
+      }
+    },
+    "errors": {
+      "saveFailed": "Échec de l'enregistrement de l'examen '{{examId}}' avec l'erreur : {{error}}"
+    }
+  }
+} 

@@ -1,0 +1,29 @@
+{
+  "historyModule": {
+    "list": {
+      "pageTitle": "历史列表",
+      "searchPlaceholder": "在表格中搜索",
+      "columns": {
+        "no": "编号",
+        "type": "类型",
+        "title": "标题",
+        "createdBy": "创建者",
+        "createdAt": "创建时间",
+        "updatedAt": "更新时间"
+      },
+      "filter": {
+        "createdBy": {
+          "header": "创建者",
+          "placeholder": "任何"
+        }
+      },
+      "contextMenu": {
+        "title": "历史菜单"
+      }
+    },
+    "breadcrumb": {
+      "list": "列表",
+      "detail": "详情"
+    }
+  }
+} 

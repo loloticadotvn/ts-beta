@@ -1,0 +1,72 @@
+{
+  "pomodoroModule": {
+    "task": {
+      "dialogs": {
+        "edit": {
+          "header": "Редактиране на Помодоро задача",
+          "placeholder": "Нова задача за обратно броене",
+          "cancelButton": "Отказ",
+          "saveButton": "Запази"
+        },
+        "changeTask": {
+          "header": "Смяна на задачата?",
+          "content": "Текущата задача трябва да бъде спряна, преди да се фокусирате върху тази задача."
+        },
+        "deleteTask": {
+          "header": "Изтриване на задачата?",
+          "content": "Текущата задача трябва да бъде спряна, преди да се фокусирате върху нея."
+        },
+        "confirmDelete": {
+            "header": "Потвърждение",
+            "message": "Сигурни ли сте, че искате да изтриете задачата?",
+            "rejectLabel": "Не",
+            "acceptLabel": "Да",
+            "acceptMessageSummary": "Потвърждение за изтриване",
+            "acceptMessageDetail": "Задачата е изтрита успешно",
+            "rejectMessageSummary": "Отхвърлено",
+            "rejectMessageDetail": "Вие отхвърлихте"
+        }
+      },
+      "form": {
+        "addTaskPlaceholder": "Нова помодоро задача",
+        "addButton": "Добави"
+      },
+      "labels": {
+        "totalTimeSpent": "Общо прекарано време за показваните задачи:"
+      },
+      "table": {
+        "searchPlaceholder": "Търсене в таблицата",
+        "saveTooltip": "Запази",
+        "headerTask": "Задача",
+        "headerCreatedAt": "Създадена на",
+        "headerTimeSpent": "Прекарано време",
+        "dragTooltip": "Плъзнете нагоре/надолу",
+        "focusTimeTooltip": "Прекарано време за фокусиране",
+        "makeDoneTooltip": "Маркирай като готово!",
+        "taskIsDoneTooltip": "Задачата е готова!",
+        "duplicateTooltip": "Дублирай!",
+        "removeTooltip": "Премахни!",
+        "headerLap": "Обиколка",
+        "headerStart": "Старт",
+        "headerStop": "Стоп",
+        "delayedStopTooltip": "забавено време на спиране:"
+      },
+      "knob": {
+        "noTaskHeader": "Няма задача",
+        "relaxTimeLabel": "Време за почивка",
+        "focusTimeLabel": "Време за фокусиране",
+        "startTooltip": "стартирай хронометъра",
+        "stopTooltip": "спри хронометъра"
+      },
+      "searchOptions": {
+        "notDone": "Задачи: Неизпълнени",
+        "done": "Задачи: Изпълнени",
+        "selecting": "Задачи: Избиране"
+      },
+      "messages": {
+          "cannotSaveSummary": "Не може да се запази",
+          "cannotSaveDetail": "Спрете текущата си задача преди да запазите"
+      }
+    }
+  }
+} 

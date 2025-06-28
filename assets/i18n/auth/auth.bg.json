@@ -1,0 +1,84 @@
+{
+  "authModule": {
+    "accessdenied": {
+      "title": "Достъп отказан",
+      "imageAlt": "Оформление Freya",
+      "message": "достъп отказан",
+      "breadcrumb": "Достъп отказан"
+    },
+    "error": {
+      "title": "Грешка",
+      "imageAlt": "Оформление Freya",
+      "message": "Грешка",
+      "breadcrumb": "Грешка"
+    },
+    "forgotpassword": {
+      "title": "Забравена парола",
+      "subtitle": "Въведете имейла си, за да нулирате паролата си",
+      "emailPlaceholder": "Имейл",
+      "cancelButton": "Отказ",
+      "submitButton": "Изпращане",
+      "breadcrumb": "Забравена парола"
+    },
+    "lockscreen": {
+      "title": "Заключен екран",
+      "subtitle": "Моля, въведете паролата си",
+      "avatarAlt": "Аватар",
+      "userName": "Ейми Елснър",
+      "userRole": "Уебмастър",
+      "signoutButton": "Изход",
+      "passwordPlaceholder": "Парола",
+      "unlockButton": "Отключване",
+      "forgotPasswordLink": "Забравена парола?",
+      "breadcrumb": "Заключен екран"
+    },
+    "login": {
+      "tabSignIn": "Вход",
+      "tabWithToken": "С токен",
+      "tabTrial": "Пробен период",
+      "emailPlaceholder": "Имейл",
+      "passwordPlaceholder": "Парола",
+      "signInButton": "Вход",
+      "tokenPlaceholder": "Токен",
+      "signInWithTokenButton": "Вход",
+      "trialButton": "14-дневен пробен период",
+      "memberIdPlaceholder": "Идентификационен номер на члена",
+      "pinPlaceholder": "ПИН",
+      "signInAsMemberButton": "Вход като член",
+      "forgotPasswordLink": "забравена парола?",
+      "memberAccountCheckbox": "Имате ли акаунт на член?",
+      "noAccountPrompt": "Нямате акаунт,",
+      "signUpLink": "регистрирайте се",
+      "loginFailedTitle": "Неуспешно влизане",
+      "loginFailedIncorrect": "Имейлът или паролата са неправилни!",
+      "loginFailedGeneric": "Неуспешно влизане",
+      "breadcrumb": "Вход"
+    },
+    "newpassword": {
+      "title": "Нова парола",
+      "subtitle": "Въведете новата си парола",
+      "passwordPlaceholder": "Парола",
+      "repeatPasswordPlaceholder": "Повторете паролата",
+      "cancelButton": "Отказ",
+      "submitButton": "Изпращане",
+      "breadcrumb": "Нова парола"
+    },
+    "register": {
+      "emailPlaceholder": "Имейл",
+      "passwordPlaceholder": "Парола",
+      "signUpButton": "Регистрация",
+      "haveAccountPrompt": "Вече имате акаунт?",
+      "loginLink": "Вход",
+      "signUpFailedTitle": "Неуспешно влизане",
+      "breadcrumb": "Регистрация"
+    },
+    "verification": {
+      "title": "Проверка",
+      "subtitle": "Изпратихме код на имейла ви:",
+      "emailDisplay": "dm**@gmail.com",
+      "cancelButton": "Отказ",
+      "verifyButton": "Проверка",
+      "breadcrumb": "Проверка"
+    }
+  }
+} 

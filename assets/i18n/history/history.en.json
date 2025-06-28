@@ -1,0 +1,29 @@
+{
+  "historyModule": {
+    "list": {
+      "pageTitle": "List of histories",
+      "searchPlaceholder": "Search in table",
+      "columns": {
+        "no": "No",
+        "type": "Type",
+        "title": "Title",
+        "createdBy": "Created by",
+        "createdAt": "Created At",
+        "updatedAt": "Updated At"
+      },
+      "filter": {
+        "createdBy": {
+          "header": "Created by",
+          "placeholder": "Any"
+        }
+      },
+      "contextMenu": {
+        "title": "History menu"
+      }
+    },
+    "breadcrumb": {
+      "list": "List",
+      "detail": "Detail"
+    }
+  }
+} 

@@ -1,0 +1,145 @@
+{
+    "lovModule": {
+        "list": {
+            "labels": {
+                "breadcrumb": "Danh sách",
+                "title": "Danh sách giá trị",
+                "addNewButton": "Thêm LOV mới"
+            },
+            "sidebar": {
+                "labels": {
+                    "createdByMe": "Tôi tạo",
+                    "createdByFriends": "Bạn bè của tôi tạo",
+                    "createdByPublic": "Công khai tạo"
+                  }                  
+            },
+            "errors": {
+                "loadErrorTitle": "Lỗi tải dữ liệu"
+            }
+        },
+        "home": {
+            "columns": {
+                "name": "Tên",
+                "audience": "Đối tượng",
+                "createdBy": "Tạo bởi",
+                "createdAt": "Tạo lúc",
+                "updatedAt": "Cập nhật lúc"
+            },
+            "menus": {
+                "title": "Menu LOV",
+                "duplicate": "Nhân bản LOV '{{itemName}}'",
+                "delete": "Xóa LOV '{{itemName}}'",
+                "setup": "Thiết lập LOV '{{itemName}}'"
+            }
+        },
+        "detail": {
+            "labels": {
+                "breadcrumb": "Chi tiết",
+                "editButton": "Sửa",
+                "deleteButton": "Xóa",
+                "rowContextMenuTitle": "Hành động hàng",
+                "createdBy": "Tạo bởi"
+            },
+            "tooltips": {
+                "editTable": "Sửa bảng",
+                "saveTable": "Lưu bảng",
+                "uniqueValueHint": "Chỉ cho phép giá trị duy nhất!. ",
+                "hideColumnName": "Đánh dấu để ẩn tên cột",
+                "columnName": "Tên cột",
+                "columnType": "Kiểu dữ liệu của cột",
+                "columnUniqueness": "Tính duy nhất của giá trị cột",
+                "columnDefaultValue": "Giá trị mặc định của cột",
+                "columnStyle": "Kiểu của cột",
+                "columnDescription": "Mô tả của cột"
+            },
+            "placeholders": {
+                "any": "Bất kỳ",
+                "enterValue": "Nhập giá trị",
+                "enterCsvData": "Nhập dữ liệu CSV",
+                "enterPrompt": "Nhập lời nhắc"
+            },
+            "buttons": {
+                "import": "Nhập"
+            },
+            "dialogs": {
+                "importCsvTitle": "Nhập dữ liệu từ CSV",
+                "importCsvDescription": "Dữ liệu CSV bao gồm các hàng. Các cột trong mỗi hàng được phân tách bằng dấu phẩy.",
+                "importAiTitle": "Nhập dữ liệu từ AI"
+            },
+            "menus": {
+                "addRow": "Thêm hàng mới",
+                "rowMenuTitle": "Menu hàng LOV",
+                "deleteRow": "Xóa hàng này",
+                "saveLov": "Lưu LOV '{{lovName}}'",
+                "importCsv": "Nhập từ CSV",
+                "importAi": "Nhập từ AI"
+            },
+            "notifications": {
+                "confirmed": "Đã xác nhận",
+                "rowDeleted": "Hàng này đã bị xóa khỏi LOV hiện tại!",
+                "lovSavedDetail": "Đã lưu LOV",
+                "dataCreationTitle": "Tạo dữ liệu",
+                "dataGeneratedSuccess": "Dữ liệu cho LOV '{{lovName}}' đã được tạo bởi GenAI!",
+                "dataGeneratedError": "Không thể tạo dữ liệu cho LOV '{{lovName}}'!",
+                "saveToDeleteHint": "<br/> Để xóa vĩnh viễn, bạn cần nhấp vào nút 'Lưu'!"
+            },
+            "confirmations": {
+                "deleteRowContents": "Bạn có chắc chắn muốn xóa hàng này và nội dung của nó không?.",
+                "deleteTitle": "Xóa LOV",
+                "deleteMessage": "Bạn có chắc chắn muốn xóa LOV này?",
+                "deleteConfirm": "Có",
+                "deleteCancel": "Không"
+            },
+            "errors": {
+                "noIdTitle": "Không có ID",
+                "noIdDetail": "Không thể lấy LOV mà không có ID",
+                "loadErrorTitle": "Lỗi tải dữ liệu",
+                "lovSaveFailed": "Lưu LOV thất bại",
+                "csvColumnMismatch": "Không thể chèn các dòng còn lại vì tổng số cột của mỗi dòng không bằng tổng số cột được xác định trước = "
+            }
+        },
+        "edit": {
+            "labels": {
+                "breadcrumb": "Chỉnh sửa",
+                "createTitle": "Tạo LOV mới",
+                "updateTitle": "Cập nhật LOV",
+                "nameLabel": "Tên*",
+                "codeLabel": "Mã",
+                "descriptionLabel": "Mô tả",
+                "statusLabel": "Trạng thái",
+                "activeStatus": "Đang hoạt động",
+                "inactiveStatus": "Không hoạt động",
+                "saveButton": "Lưu",
+                "cancelButton": "Hủy",
+                "tagsSection": "Thẻ",
+                "descriptionPlaceholder": "Nhập mô tả tại đây",
+                "columnNamePlaceholder": "Tên cột*",
+                "selectTypePlaceholder": "Chọn một loại",
+                "uniqueLabel": "Duy nhất",
+                "notUniqueLabel": "Ko Duy nhất",
+                "defaultValuePlaceholder": "Giá trị mặc định",
+                "stylePlaceholder": "Kiểu",
+                "addColumnButton": "Thêm cột",
+                "createButton": "Tạo"
+            },
+            "tooltips": {
+                "hideColumnName": "Đánh dấu để ẩn tên cột",
+                "columnName": "Tên cột",
+                "columnType": "Kiểu dữ liệu của cột",
+                "columnUniqueness": "Tính duy nhất của giá trị cột",
+                "columnDefaultValue": "Giá trị mặc định của cột",
+                "columnStyle": "Kiểu của cột",
+                "columnDescription": "Mô tả của cột"
+            },
+            "errors": {
+                "requiredField": "Trường này là bắt buộc",
+                "invalidFormat": "Định dạng không hợp lệ",
+                "saveError": "Lỗi khi lưu LOV"
+            },
+            "notifications": {
+                "rowDeleted": "Đã xóa hàng thành công.",
+                "lovSaved": "Đã lưu LOV '{{lovName}}' thành công."
+            }
+        }
+    }
+} 

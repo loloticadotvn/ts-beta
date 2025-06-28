@@ -1,0 +1,182 @@
+{
+  "formModule": {
+    "dialogs": {
+      "share": {
+        "header": "Chia sẻ Biểu mẫu",
+        "fromForm": "Từ biểu mẫu",
+        "toText": "Đến văn bản",
+        "whoSeeText": "Ai xem văn bản",
+        "selectAudience": "Chọn đối tượng",
+        "cancel": "Hủy",
+        "create": "Tạo"
+      },
+      "createManual": {
+        "header": "Tạo Biểu mẫu Thủ công",
+        "formName": "Tên Biểu mẫu",
+        "namePlaceholder": "Nhập tên vào đây",
+        "nameRequired": "Tên là bắt buộc.",
+        "description": "Mô tả",
+        "descriptionPlaceholder": "Nhập mô tả vào đây",
+        "cancel": "Hủy",
+        "create": "Tạo"
+      },
+      "createJson": {
+        "header": "Tạo Biểu mẫu từ JSON",
+        "formName": "Tên Biểu mẫu",
+        "namePlaceholder": "Tiêu đề",
+        "description": "Mô tả",
+        "descriptionPlaceholder": "Nhập mô tả vào đây",
+        "jsonInstructions": "Sao chép và dán dữ liệu JSON của bạn để tạo câu hỏi vào ô văn bản bên dưới",
+        "cancel": "Hủy",
+        "create": "Tạo"
+      },
+      "createAi": {
+        "header": "Tạo Biểu mẫu với AI",
+        "quizName": "Tên Bài kiểm tra*",
+        "namePlaceholder": "Nhập tên vào đây",
+        "nameRequired": "Tên là bắt buộc.",
+        "prompt": "Gợi ý*",
+        "promptPlaceholder": "Nhập gợi ý vào đây",
+        "promptRequired": "Gợi ý là bắt buộc.",
+        "description": "Mô tả",
+        "descriptionPlaceholder": "Nhập mô tả vào đây",
+        "cancel": "Hủy",
+        "create": "Tạo"
+      }
+    },
+    "sidebar": {
+      "addNewForm": "Thêm Biểu mẫu Mới",
+      "menu": {
+        "manual": "Biểu mẫu kiểm tra thủ công",
+        "json": "Biểu mẫu kiểm tra qua JSON",
+        "ai": "Biểu mẫu kiểm tra qua AI"
+      }
+    },
+    "preview": {
+      "works": "Xem trước Biểu mẫu Hoạt động!",
+      "totalQuestions": "Tổng số câu hỏi: {{count}}",
+      "correctAnswers": "Câu trả lời đúng: {{count}}",
+      "choice": {
+        "expectedAnswerTooltip": "câu trả lời dự kiến",
+        "pointsLabel": "Điểm: {{points}}",
+        "pointsLabelText": "Điểm",
+        "requiredLabel": "Bắt buộc",
+        "answerButton": "Trả lời"
+      },
+      "dragDrop": {
+        "questionHeaderDefault": "Câu hỏi",
+        "expectationHeaderDefault": "Kỳ vọng"
+      },
+      "matchPair": {},
+      "resultCorrect": "Đúng",
+      "resultIncorrect": "Sai"
+    },
+    "copy": {
+      "works": "Sao chép Biểu mẫu Hoạt động!"
+    },
+    "share": {
+      "works": "Chia sẻ Biểu mẫu Hoạt động!"
+    },
+    "messages": {
+      "formCreated": "Đã tạo biểu mẫu: {{title}}",
+      "formFailed": "Không thể tạo biểu mẫu: {{title}}",
+      "formCreating": "Đang tạo biểu mẫu: {{title}}",
+      "formCreatingNotice": "Bạn sẽ được thông báo khi việc xây dựng Biểu mẫu hoàn tất!",
+      "textCreated": "Đã tạo văn bản: {{title}}",
+      "textFailed": "Không thể tạo văn bản: {{title}}"
+    },
+    "detailSidebar": {
+      "unlock": "Mở khóa",
+      "lock": "Khóa",
+      "save": "Lưu",
+      "copy": "Sao chép",
+      "share": "Chia sẻ",
+      "delete": "Xóa",
+      "bookmark": "Đánh dấu",
+      "confirmDeleteHeader": "Xác nhận xóa",
+      "confirmDeleteMessage": "Bạn có muốn xóa biểu mẫu: {{title}} không?",
+      "messageConfirmed": "Đã xác nhận",
+      "messageDeleted": "Đã xóa biểu mẫu: {{title}}"
+    },
+    "detailHome": {
+      "titlePlaceholder": "Tiêu đề Biểu mẫu",
+      "insertImageTooltip": "Chèn ảnh",
+      "aiPromptNotice": "Bài kiểm tra được tạo bởi gợi ý: <b>{{prompt}}</b>",
+      "realtimeCheckbox": "Cho phép kiểm tra thời gian thực",
+      "addNewQuestionButton": "Thêm câu hỏi mới",
+      "menu": {
+        "addChoice": "Câu hỏi Lựa chọn",
+        "addYesNo": "Câu hỏi Có/Không",
+        "addDragDrop": "Câu hỏi Kéo và Thả",
+        "addMatchPair": "Câu hỏi Nối cặp",
+        "addFromJson": "Thêm Câu hỏi từ JSON"
+      }
+    },
+    "detailShare": {
+      "works": "Chia sẻ chi tiết biểu mẫu hoạt động!"
+    },
+    "detailNew": {
+      "works": "Chi tiết biểu mẫu mới hoạt động!"
+    },
+    "questionTypes": {
+      "choice": {
+        "questionPlaceholder": "Văn bản câu hỏi",
+        "insertImageTooltip": "Chèn ảnh",
+        "openRichEditorTooltip": "Mở trình soạn thảo đa dạng",
+        "multipleAnswersLabel": "Nhiều câu trả lời",
+        "addNewChoiceButton": "Thêm lựa chọn mới",
+        "choicePlaceholder": "Văn bản lựa chọn",
+        "removeChoiceTooltip": "Xóa lựa chọn này",
+        "markCorrectTooltip": "Đánh dấu lựa chọn này là đúng",
+        "confirmDeleteOptionMessage": "Bạn có muốn xóa tùy chọn này không?",
+        "optionDeletedMessage": "Tùy chọn này đã bị xóa khỏi câu hỏi hiện tại",
+        "pointsLabelAddon": "Điểm",
+        "requiredLabelSwitch": "Bắt buộc",
+        "commentTooltip": "Thêm nhận xét/phản hồi",
+        "moreOptionsTooltip": "Thêm tùy chọn câu hỏi"
+      },
+      "dragDrop": {
+        "questionPlaceholder": "Văn bản câu hỏi",
+        "insertImageTooltip": "Chèn ảnh",
+        "openRichEditorTooltip": "Mở trình soạn thảo đa dạng",
+        "wordPlaceholder": "Văn bản từ",
+        "removeWordTooltip": "Xóa từ này",
+        "addNewWordButton": "Thêm từ mới",
+        "confirmDeleteWordMessage": "Bạn có muốn xóa từ này không?",
+        "wordDeletedMessage": "Từ này đã bị xóa khỏi câu hỏi hiện tại"
+      },
+      "matchPair": {
+        "questionPlaceholder": "Văn bản câu hỏi",
+        "insertImageTooltip": "Chèn ảnh",
+        "openRichEditorTooltip": "Mở trình soạn thảo đa dạng",
+        "leftPairPlaceholder": "Cặp trái",
+        "rightPairPlaceholder": "Cặp phải",
+        "removePairTooltip": "Xóa cặp này",
+        "addNewPairButton": "Thêm cặp mới",
+        "confirmDeletePairMessage": "Bạn có muốn xóa cặp này không?",
+        "pairDeletedMessage": "Cặp này đã bị xóa khỏi câu hỏi hiện tại"
+      }
+    },
+    "list": {
+      "title": "Danh sách biểu mẫu",
+      "searchPlaceholder": "Tìm kiếm trong bảng",
+      "filter": {
+        "createdByHeader": "Tạo bởi",
+        "anyPlaceholder": "Bất kỳ"
+      },
+      "column": {
+        "category": "Thể loại",
+        "title": "Tiêu đề",
+        "createdBy": "Tạo bởi",
+        "realtime": "Thời gian thực",
+        "createdAt": "Tạo lúc",
+        "updatedAt": "Cập nhật lúc"
+      },
+      "contextMenu": {
+        "title": "Menu Biểu mẫu",
+        "deleteConfirm": "Xóa biểu mẫu '{title}' của {{username}}?",
+        "share": "Chia sẻ đến"
+      }
+    }
+  }
+} 

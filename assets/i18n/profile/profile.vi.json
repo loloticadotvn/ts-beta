@@ -1,0 +1,148 @@
+{
+  "profileModule": {
+    "list": {
+      "pageReport": "Hiển thị {first} đến {last} của {totalRecords} mục nhập",
+      "globalSearchPlaceholder": "Tìm kiếm toàn cầu",
+      "addNewButton": "Thêm mới",
+      "table": {
+        "nameHeader": "Tên",
+        "countryHeader": "Quốc gia",
+        "joinDateHeader": "Ngày tham gia",
+        "createdByHeader": "Được tạo bởi",
+        "activityHeader": "Hoạt động"
+      }
+    },
+    "create": {
+      "breadcrumb": "Tạo",
+      "user": {
+        "title": "Tạo người dùng",
+        "sectionTitle": "Hồ sơ",
+        "sectionDescription": "Odio euismod lacinia at quis risus sed vulputate odio.",
+        "nicknameLabel": "Biệt danh",
+        "avatarLabel": "Ảnh đại diện",
+        "uploadImageButton": "Tải ảnh lên",
+        "bioLabel": "Tiểu sử",
+        "emailLabel": "Email",
+        "countryLabel": "Quốc gia",
+        "selectCountryPlaceholder": "Chọn một quốc gia",
+        "cityLabel": "Thành phố",
+        "stateLabel": "Tiểu bang",
+        "websiteLabel": "Trang web",
+        "websiteAddon": "www",
+        "createUserButton": "Tạo người dùng",
+        "countries": {
+          "AU": "Úc",
+          "BR": "Brazil",
+          "CN": "Trung Quốc",
+          "EG": "Ai Cập",
+          "FR": "Pháp",
+          "DE": "Đức",
+          "IN": "Ấn Độ",
+          "JP": "Nhật Bản",
+          "ES": "Tây Ban Nha",
+          "US": "Hoa Kỳ"
+        }
+      },
+      "group": {
+        "placeholder": "create-group hoạt động!"
+      },
+      "member": {
+        "title": "Tạo thành viên",
+        "description1": "Thành viên sẽ do bạn quản lý. Ví dụ: Nếu thành viên quên mật khẩu, bạn có thể gửi lại OTP mới cho họ.",
+        "description2": "Sau khi tạo, bạn gửi OTP đã tạo cho thành viên đó để đăng nhập.",
+        "description3": "OTP chỉ hợp lệ trong 24 giờ sau khi thành viên được tạo.",
+        "nameLabel": "Tên thành viên",
+        "emailLabel": "Email",
+        "createMemberButton": "Tạo thành viên",
+        "table": {
+          "idHeader": "Id",
+          "nameHeader": "Tên",
+          "pinHeader": "PIN",
+          "emailHeader": "Email"
+        }
+      },
+      "sidebar": {
+        "createMember": "Tạo thành viên",
+        "createUser": "Tạo người dùng",
+        "createGroup": "Tạo nhóm"
+      }
+    },
+    "settings": {
+      "breadcrumb": "Cài đặt",
+      "home": {
+        "cardHeader": "Thông tin người dùng",
+        "title": "Cài đặt hồ sơ",
+        "usernameLabel": "Tên người dùng",
+        "tokenLabel": "Mã truy cập",
+        "tokenPlaceholder": "Mã truy cập",
+        "loginEmailLabel": "Email đăng nhập",
+        "loginIdLabel": "Id đăng nhập",
+        "avatarLabel": "Ảnh đại diện",
+        "changeAvatarButton": "Thay đổi ảnh đại diện",
+        "updateUserInfoButton": "Cập nhật thông tin người dùng",
+        "passwordUpdateCardHeader": "Cập nhật mật khẩu",
+        "currentPasswordLabel": "Mật khẩu hiện tại",
+        "newPasswordLabel": "Mật khẩu mới",
+        "repeatNewPasswordLabel": "Lặp lại mật khẩu mới",
+        "passwordMismatchError": "Mật khẩu mới và lặp lại mật khẩu mới không khớp.",
+        "changePasswordButton": "Thay đổi mật khẩu",
+        "signInWithEmailCardHeader": "Đăng nhập bằng Email",
+        "emailLabel": "Email",
+        "passwordLabel": "Mật khẩu",
+        "repeatPasswordLabel": "Lặp lại mật khẩu",
+        "updateSignInMethodButton": "Cập nhật phương thức đăng nhập"
+      }
+    },
+    "member": {
+      "breadcrumb": "Thành viên",
+      "list": {
+        "breadcrumb": "Danh sách",
+        "home": {
+          "searchPlaceholder": "Biểu mẫu tìm kiếm",
+          "table": {
+            "idHeader": "Id",
+            "nameHeader": "Tên",
+            "activatedHeader": "Đã kích hoạt",
+            "emailHeader": "Email",
+            "pinHeader": "PIN",
+            "avatarHeader": "Ảnh đại diện",
+            "createdByHeader": "Được tạo bởi",
+            "updatedAtHeader": "Cập nhật lúc"
+          },
+          "trashTooltip": "Thùng rác",
+          "deleteConfirmHeader": "Xác nhận xóa",
+          "deleteConfirmMessage": "Bạn có muốn xóa thành viên: {memberName} không?"
+        },
+        "sidebar": {
+          "placeholder": "member-list-sidebar hoạt động!"
+        }
+      },
+      "detail": {
+        "breadcrumb": "Chi tiết",
+        "home": {
+          "placeholder": "member-detail-home hoạt động!"
+        },
+        "sidebar": {
+          "placeholder": "member-detail-sidebar hoạt động!"
+        }
+      }
+    },
+    "notifications": {
+      "saveSuccessTitle": "Hồ sơ người dùng",
+      "saveSuccessMessage": "Đã lưu thành công!",
+      "saveErrorTitle": "Hồ sơ người dùng",
+      "saveErrorMessage": "Lưu thất bại!. Lỗi: {errorMessage}",
+      "uploadErrorTitle": "Tải tệp lên",
+      "uploadErrorMessage": "Không thể tải lên tệp ảnh đại diện",
+      "copySuccessTitle": "Sao chép",
+      "copySuccessMessage": "Đã sao chép mã truy cập vào bộ nhớ tạm",
+      "changePasswordTitle": "Thay đổi mật khẩu",
+      "changePasswordSuccessMessage": "Mật khẩu được cập nhật thành công!",
+      "changePasswordErrorTitle": "Thay đổi mật khẩu",
+      "passwordRulesTitle": "Quy tắc mật khẩu",
+      "deleteSuccessTitle": "Thành công",
+      "deleteSuccessMessage": "Đã xóa thành viên {memberName}",
+      "deleteErrorTitle": "Lỗi"
+    }
+  }
+} 

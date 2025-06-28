@@ -1,0 +1,64 @@
+{
+  "examModule": {
+    "breadcrumbs": {
+      "list": "列表",
+      "detail": "详情"
+    },
+    "list": {
+      "title": "考试列表",
+      "home": {
+        "table": {
+          "columns": {
+            "code": "代码",
+            "exam": "考试",
+            "createdBy": "创建者",
+            "assignTo": "分配给",
+            "progress": "进度",
+            "stats": "统计",
+            "totalPoints": "总分",
+            "earnedPoints": "得分",
+            "result": "结果",
+            "realtime": "实时",
+            "startTime": "开始时间",
+            "endTime": "结束时间",
+            "lastSave": "最后保存"
+          }
+        },
+        "progress": {
+          "notStarted": "未开始",
+          "inProgress": "进行中",
+          "finished": "已完成"
+        },
+        "contextMenu": {
+          "title": "考试菜单",
+          "deleteConfirm": "删除 {{username}} 的考试 '{{title}}'？",
+          "edit": "编辑此考试",
+          "share": "分享考试"
+        },
+        "dialog": {
+          "deleteConfirm": "您想删除分配给 {{username}} 的考试 '{{title}}' 吗？"
+        },
+        "statsDescription": "总答对题数：{{correct}} / 总题数：{{total}}",
+        "placeholders": {
+          "selectQuiz": "选择测验",
+          "searchTable": "在表格中搜索",
+          "any": "任何"
+        },
+        "tooltips": {
+          "copyCode": "复制代码"
+        }
+      }
+    },
+    "detail": {
+      "sidebar": {
+        "startExam": "开始考试",
+        "finishExam": "结束考试",
+        "save": "保存",
+        "pingPongInfo": "这是一个乒乓问答"
+      }
+    },
+    "errors": {
+      "saveFailed": "保存考试 '{{examId}}' 失败，错误：{{error}}"
+    }
+  }
+} 

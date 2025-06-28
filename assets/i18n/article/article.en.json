@@ -1,0 +1,89 @@
+{
+    "articleModule": {
+        "list": {
+            "labels": {
+                "breadcrumb": "List",
+                "title": "Articles",
+                "sortByPlaceholder": "Sort by",
+                "recentArticlesTitle": "Recent Articles",
+                "recentArticlesDescription": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "categoryAnimals": "Animals",
+                "articleTitleAnimals": "Why Earth's most beloved creatures are headed toward extinction",
+                "placeholderTextLorem": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "categoryOxygen": "Oxygen",
+                "articleTitleOxygen": "Only one-third of tropical rainforests remain intact, study says",
+                "categoryNature": "Nature",
+                "articleTitleNature": "Does planting a tree really offset your carbon footprint?"
+            },
+            "sortOptions": {
+                "mostShared": "Most Shared",
+                "mostCommented": "Most Commented"
+            },
+            "errors": {
+                "loadErrorTitle": "Load error"
+            },
+            "card": {
+                "menuItems": {
+                    "bookmark": "Bookmark",
+                    "editPost": "Edit post",
+                    "deletePost": "Delete post"
+                },
+                "confirmations": {
+                    "deletePrefix": "Do you want to delete the post: "
+                }
+            }
+        },
+        "detail": {
+            "labels": {
+                "breadcrumb": "Detail",
+                "previewChip": "Preview",
+                "editPostButton": "Edit Post",
+                "commentsTitle": "Comments",
+                "postCommentTitle": "Post a Comment",
+                "namePlaceholder": "Name",
+                "emailPlaceholder": "Email",
+                "commentPlaceholder": "Your comment",
+                "postCommentButton": "Post Comment"
+            },
+            "errors": {
+                "noIdTitle": "No Id attached",
+                "noIdDetail": "cannot get article without id",
+                "loadErrorTitle": "Load error"
+            }
+        },
+        "edit": {
+            "labels": {
+                "breadcrumb": "Edit",
+                "createTitle": "Create a new post",
+                "updateTitle": "Update the post",
+                "fileUploadPrompt": "Drop or select a cover image",
+                "titlePlaceholder": "Title*",
+                "descriptionPlaceholder": "Description",
+                "contentPlaceholder": "Content*",
+                "propertiesTab": "Properties",
+                "galleriaTab": "Galleria",
+                "publishSection": "Publish",
+                "statusLabel": "Status:",
+                "statusValueDraft": "Draft",
+                "tagsSection": "Tags",
+                "metaSection": "Meta",
+                "uploadButton": "Upload",
+                "deleteButton": "Delete",
+                "publishButton": "Publish",
+                "publishAndNewButton": "Publish & New"
+            },
+            "notifications": {
+                "imageUploadTitle": "Image upload",
+                "imageUploadSuccess": "Uploaded successfully!",
+                "imageUploadErrorPrefix": "Failed to upload avatar file"
+            },
+            "confirmations": {
+                "publishPrefix": "Do you want to publish the post: ",
+                "deletePrefix": "Do you want to delete the post: "
+            },
+            "errors": {
+                "loadErrorTitle": "Load error"
+            }
+        }
+    }
+} 

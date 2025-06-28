@@ -1,0 +1,64 @@
+{
+  "examModule": {
+    "breadcrumbs": {
+      "list": "Danh sách",
+      "detail": "Chi tiết"
+    },
+    "list": {
+      "title": "Danh sách bài kiểm tra",
+      "home": { 
+        "table": {
+          "columns": {
+            "code": "Mã",
+            "exam": "Bài kiểm tra",
+            "createdBy": "Người tạo",
+            "assignTo": "Giao cho",
+            "progress": "Tiến độ",
+            "stats": "Thống kê",
+            "totalPoints": "Tổng điểm",
+            "earnedPoints": "Điểm đạt được",
+            "result": "Kết quả",
+            "realtime": "Thời gian thực",
+            "startTime": "Thời gian bắt đầu",
+            "endTime": "Thời gian kết thúc",
+            "lastSave": "Lưu lần cuối"
+          }
+        },
+        "progress": {
+          "notStarted": "Chưa bắt đầu",
+          "inProgress": "Đang tiến hành",
+          "finished": "Đã hoàn thành"
+        },
+        "contextMenu": {
+          "title": "Menu bài kiểm tra",
+          "deleteConfirm": "Xóa bài kiểm tra '{{title}}' của {{username}}?",
+          "edit": "Sửa bài kiểm tra này",
+          "share": "Chia sẻ bài kiểm tra"
+        },
+        "dialog": {
+          "deleteConfirm": "Bạn có muốn xóa bài kiểm tra '{{title}}' được giao cho {{username}}?"
+        },
+        "statsDescription": "Tổng câu trả lời đúng: {{correct}} / Tổng số câu hỏi: {{total}}",
+        "placeholders": {
+          "selectQuiz": "Chọn bài kiểm tra",
+          "searchTable": "Tìm kiếm trong bảng",
+          "any": "Bất kỳ"
+        },
+        "tooltips": {
+          "copyCode": "Sao chép mã"
+        }
+      }
+    },
+    "detail": {
+      "sidebar": {
+        "startExam": "Bắt đầu kiểm tra",
+        "finishExam": "Kết thúc kiểm tra",
+        "save": "Lưu",
+        "pingPongInfo": "Đây là câu hỏi và trả lời kiểu ping-pong"
+      }
+    },
+    "errors": {
+      "saveFailed": "Không thể lưu bài kiểm tra '{{examId}}' với lỗi: {{error}}"
+    }
+  }
+} 

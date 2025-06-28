@@ -1,0 +1,182 @@
+{
+  "formModule": {
+    "dialogs": {
+      "share": {
+        "header": "Partager le Formulaire",
+        "fromForm": "Du formulaire",
+        "toText": "Au texte",
+        "whoSeeText": "Qui voit le texte",
+        "selectAudience": "Sélectionner un public",
+        "cancel": "Annuler",
+        "create": "Créer"
+      },
+      "createManual": {
+        "header": "Créer un Formulaire Manuellement",
+        "formName": "Nom du Formulaire",
+        "namePlaceholder": "Entrez un nom ici",
+        "nameRequired": "Le nom est requis.",
+        "description": "Description",
+        "descriptionPlaceholder": "Entrez une description ici",
+        "cancel": "Annuler",
+        "create": "Créer"
+      },
+      "createJson": {
+        "header": "Créer un Formulaire à partir de JSON",
+        "formName": "Nom du Formulaire",
+        "namePlaceholder": "Titre",
+        "description": "Description",
+        "descriptionPlaceholder": "Entrez une description ici",
+        "jsonInstructions": "Copiez et collez vos données JSON pour créer des questions dans la zone de texte ci-dessous",
+        "cancel": "Annuler",
+        "create": "Créer"
+      },
+      "createAi": {
+        "header": "Créer un Formulaire avec l'IA",
+        "quizName": "Nom du Quiz*",
+        "namePlaceholder": "Entrez un nom ici",
+        "nameRequired": "Le nom est requis.",
+        "prompt": "Invite*",
+        "promptPlaceholder": "Entrez une invite ici",
+        "promptRequired": "L'invite est requise.",
+        "description": "Description",
+        "descriptionPlaceholder": "Entrez une description ici",
+        "cancel": "Annuler",
+        "create": "Créer"
+      }
+    },
+    "sidebar": {
+      "addNewForm": "Ajouter un Nouveau Formulaire",
+      "menu": {
+        "manual": "Formulaire de quiz manuellement",
+        "json": "Formulaire de quiz via JSON",
+        "ai": "Formulaire de quiz via IA"
+      }
+    },
+    "preview": {
+      "works": "Aperçu du Formulaire Fonctionne !",
+      "totalQuestions": "Nombre total de questions : {{count}}",
+      "correctAnswers": "Réponses correctes : {{count}}",
+      "choice": {
+        "expectedAnswerTooltip": "réponse attendue",
+        "pointsLabel": "Points : {{points}}",
+        "pointsLabelText": "Points",
+        "requiredLabel": "Requis",
+        "answerButton": "Répondre"
+      },
+      "dragDrop": {
+        "questionHeaderDefault": "Question",
+        "expectationHeaderDefault": "Attente"
+      },
+      "matchPair": {},
+      "resultCorrect": "Correct",
+      "resultIncorrect": "Incorrect"
+    },
+    "copy": {
+      "works": "Copie du Formulaire Fonctionne !"
+    },
+    "share": {
+      "works": "Partage du Formulaire Fonctionne !"
+    },
+    "messages": {
+      "formCreated": "Formulaire créé : {{title}}",
+      "formFailed": "Échec de la création du formulaire : {{title}}",
+      "formCreating": "Formulaire en cours de création : {{title}}",
+      "formCreatingNotice": "Vous serez averti lorsque la construction du formulaire sera terminée !",
+      "textCreated": "Texte créé : {{title}}",
+      "textFailed": "Échec de la création du texte : {{title}}"
+    },
+    "detailSidebar": {
+      "unlock": "Déverrouiller",
+      "lock": "Verrouiller",
+      "save": "Enregistrer",
+      "copy": "Copier",
+      "share": "Partager",
+      "delete": "Supprimer",
+      "bookmark": "Signet",
+      "confirmDeleteHeader": "Confirmation de suppression",
+      "confirmDeleteMessage": "Voulez-vous supprimer le formulaire : {{title}} ?",
+      "messageConfirmed": "Confirmé",
+      "messageDeleted": "Formulaire supprimé : {{title}}"
+    },
+    "detailHome": {
+      "titlePlaceholder": "Titre du formulaire",
+      "insertImageTooltip": "Insérer une image",
+      "aiPromptNotice": "Le quiz est créé par l'invite : <b>{{prompt}}</b>",
+      "realtimeCheckbox": "Autoriser le quiz en temps réel",
+      "addNewQuestionButton": "Ajouter une nouvelle question",
+      "menu": {
+        "addChoice": "Question à Choix",
+        "addYesNo": "Question Oui/Non",
+        "addDragDrop": "Question Glisser-Déposer",
+        "addMatchPair": "Question d'Appariement",
+        "addFromJson": "Ajouter des Questions depuis JSON"
+      }
+    },
+    "detailShare": {
+      "works": "Le partage des détails du formulaire fonctionne !"
+    },
+    "detailNew": {
+      "works": "Le nouveau détail du formulaire fonctionne !"
+    },
+    "questionTypes": {
+      "choice": {
+        "questionPlaceholder": "Texte de la question",
+        "insertImageTooltip": "Insérer une image",
+        "openRichEditorTooltip": "Ouvrir l'éditeur riche",
+        "multipleAnswersLabel": "Réponses multiples",
+        "addNewChoiceButton": "Ajouter un nouveau choix",
+        "choicePlaceholder": "Texte du choix",
+        "removeChoiceTooltip": "Supprimer ce choix",
+        "markCorrectTooltip": "Marquer ce choix comme correct",
+        "confirmDeleteOptionMessage": "Voulez-vous supprimer cette option ?",
+        "optionDeletedMessage": "Cette option est supprimée de la question actuelle",
+        "pointsLabelAddon": "Points",
+        "requiredLabelSwitch": "Requis",
+        "commentTooltip": "Ajouter un commentaire/feedback",
+        "moreOptionsTooltip": "Plus d'options de question"
+      },
+      "dragDrop": {
+        "questionPlaceholder": "Texte de la question",
+        "insertImageTooltip": "Insérer une image",
+        "openRichEditorTooltip": "Ouvrir l'éditeur riche",
+        "wordPlaceholder": "Texte du mot",
+        "removeWordTooltip": "Supprimer ce mot",
+        "addNewWordButton": "Ajouter un nouveau mot",
+        "confirmDeleteWordMessage": "Voulez-vous supprimer ce mot ?",
+        "wordDeletedMessage": "Ce mot est supprimé de la question actuelle"
+      },
+      "matchPair": {
+        "questionPlaceholder": "Texte de la question",
+        "insertImageTooltip": "Insérer une image",
+        "openRichEditorTooltip": "Ouvrir l'éditeur riche",
+        "leftPairPlaceholder": "Paire gauche",
+        "rightPairPlaceholder": "Paire droite",
+        "removePairTooltip": "Supprimer cette paire",
+        "addNewPairButton": "Ajouter une nouvelle paire",
+        "confirmDeletePairMessage": "Voulez-vous supprimer cette paire ?",
+        "pairDeletedMessage": "Cette paire est supprimée de la question actuelle"
+      }
+    },
+    "list": {
+      "title": "Liste des formulaires",
+      "searchPlaceholder": "Rechercher dans le tableau",
+      "filter": {
+        "createdByHeader": "Créé par",
+        "anyPlaceholder": "Quelconque"
+      },
+      "column": {
+        "category": "Catégorie",
+        "title": "Titre",
+        "createdBy": "Créé par",
+        "realtime": "Temps réel",
+        "createdAt": "Créé le",
+        "updatedAt": "Mis à jour le"
+      },
+      "contextMenu": {
+        "title": "Menu Formulaire",
+        "deleteConfirm": "Supprimer le formulaire '{title}' de {{username}}?",
+        "share": "Partager avec"
+      }
+    }
+  }
+} 

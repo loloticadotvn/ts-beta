@@ -1,0 +1,84 @@
+{
+  "authModule": {
+    "accessdenied": {
+      "title": "Access Denied",
+      "imageAlt": "freya-layout",
+      "message": "access denied",
+      "breadcrumb": "Access Denied"
+    },
+    "error": {
+      "title": "Error",
+      "imageAlt": "freya-layout",
+      "message": "Error",
+      "breadcrumb": "Error"
+    },
+    "forgotpassword": {
+      "title": "Forgot Password",
+      "subtitle": "Enter your email to reset your password",
+      "emailPlaceholder": "Email",
+      "cancelButton": "Cancel",
+      "submitButton": "Submit",
+      "breadcrumb": "Forgot Password"
+    },
+    "lockscreen": {
+      "title": "Lock Screen",
+      "subtitle": "Please enter your password",
+      "avatarAlt": "Avatar",
+      "userName": "Amy Elsner",
+      "userRole": "Webmaster",
+      "signoutButton": "Signout",
+      "passwordPlaceholder": "Password",
+      "unlockButton": "Unlock",
+      "forgotPasswordLink": "Forgot password?",
+      "breadcrumb": "Lock Screen"
+    },
+    "login": {
+      "tabSignIn": "Sign in",
+      "tabWithToken": "With token",
+      "tabTrial": "Trial",
+      "emailPlaceholder": "Email",
+      "passwordPlaceholder": "Password",
+      "signInButton": "Sign in",
+      "tokenPlaceholder": "Token",
+      "signInWithTokenButton": "Sign in",
+      "trialButton": "14-day trial",
+      "memberIdPlaceholder": "Member's Id",
+      "pinPlaceholder": "PIN",
+      "signInAsMemberButton": "Sign In as Member",
+      "forgotPasswordLink": "forget password?",
+      "memberAccountCheckbox": "Have a Member account?",
+      "noAccountPrompt": "Don't you have an account,",
+      "signUpLink": "sign up",
+      "loginFailedTitle": "Failed to login",
+      "loginFailedIncorrect": "Email or Password is incorrect!",
+      "loginFailedGeneric": "Failed to login",
+      "breadcrumb": "Login"
+    },
+    "newpassword": {
+      "title": "New Password",
+      "subtitle": "Enter your new password",
+      "passwordPlaceholder": "Password",
+      "repeatPasswordPlaceholder": "Repeat Password",
+      "cancelButton": "Cancel",
+      "submitButton": "Submit",
+      "breadcrumb": "New Password"
+    },
+    "register": {
+      "emailPlaceholder": "Email",
+      "passwordPlaceholder": "Password",
+      "signUpButton": "Sign Up",
+      "haveAccountPrompt": "Already have an account?",
+      "loginLink": "Login",
+      "signUpFailedTitle": "Failed to login",
+      "breadcrumb": "Register"
+    },
+    "verification": {
+      "title": "Verification",
+      "subtitle": "We have sent code to you email:",
+      "emailDisplay": "dm**@gmail.com",
+      "cancelButton": "Cancel",
+      "verifyButton": "Verify",
+      "breadcrumb": "Verification"
+    }
+  }
+} 

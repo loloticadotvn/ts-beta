@@ -1,0 +1,72 @@
+{
+  "pomodoroModule": {
+    "task": {
+      "dialogs": {
+        "edit": {
+          "header": "Chỉnh sửa công việc Pomodoro",
+          "placeholder": "Công việc đếm ngược mới",
+          "cancelButton": "Hủy bỏ",
+          "saveButton": "Lưu lại"
+        },
+        "changeTask": {
+          "header": "Đổi công việc?",
+          "content": "Công việc đang chạy cần phải dừng trước khi chuyển sang công việc này."
+        },
+        "deleteTask": {
+          "header": "Xóa công việc?",
+          "content": "Công việc đang chạy cần phải dừng trước khi xóa nó."
+        },
+        "confirmDelete": {
+            "header": "Xác nhận",
+            "message": "Bạn có chắc chắn muốn xóa công việc này không?",
+            "rejectLabel": "Không",
+            "acceptLabel": "Có",
+            "acceptMessageSummary": "Xác nhận đã xóa",
+            "acceptMessageDetail": "Công việc đã được xóa thành công",
+            "rejectMessageSummary": "Đã từ chối",
+            "rejectMessageDetail": "Bạn đã từ chối xóa"
+        }
+      },
+      "form": {
+        "addTaskPlaceholder": "Công việc pomodoro mới",
+        "addButton": "Thêm mới"
+      },
+      "labels": {
+        "totalTimeSpent": "Tổng thời gian đã sử dụng cho các công việc hiển thị:"
+      },
+      "table": {
+        "searchPlaceholder": "Tìm kiếm trong bảng",
+        "saveTooltip": "Lưu thay đổi",
+        "headerTask": "Tên công việc",
+        "headerCreatedAt": "Ngày tạo",
+        "headerTimeSpent": "Thời gian đã dùng",
+        "dragTooltip": "Kéo để sắp xếp",
+        "focusTimeTooltip": "Thời gian tập trung",
+        "makeDoneTooltip": "Đánh dấu là xong!",
+        "taskIsDoneTooltip": "Công việc đã hoàn thành!",
+        "duplicateTooltip": "Tạo bản sao!",
+        "removeTooltip": "Xóa công việc!",
+        "headerLap": "Vòng lặp",
+        "headerStart": "Bắt đầu",
+        "headerStop": "Kết thúc",
+        "delayedStopTooltip": "Thời gian dừng bị trễ:"
+      },
+      "knob": {
+        "noTaskHeader": "Chưa chọn công việc",
+        "relaxTimeLabel": "Thời gian nghỉ",
+        "focusTimeLabel": "Thời gian tập trung",
+        "startTooltip": "Bắt đầu bấm giờ",
+        "stopTooltip": "Dừng bấm giờ"
+      },
+      "searchOptions": {
+        "notDone": "Công việc: Chưa hoàn thành",
+        "done": "Công việc: Đã hoàn thành",
+        "selecting": "Công việc: Đang chọn"
+      },
+      "messages": {
+          "cannotSaveSummary": "Không thể lưu",
+          "cannotSaveDetail": "Vui lòng dừng công việc đang chạy trước khi lưu."
+      }
+    }
+  }
+} 

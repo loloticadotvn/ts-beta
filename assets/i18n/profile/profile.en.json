@@ -1,0 +1,157 @@
+{
+  "profileModule": {
+    "list": {
+      "pageReport": "Showing {first} to {last} of {totalRecords} entries",
+      "globalSearchPlaceholder": "Global Search",
+      "addNewButton": "Add New",
+      "table": {
+        "nameHeader": "Name",
+        "countryHeader": "Country",
+        "joinDateHeader": "Join Date",
+        "createdByHeader": "Created By",
+        "activityHeader": "Activity"
+      }
+    },
+    "create": {
+      "breadcrumb": "Create",
+      "user": {
+        "title": "Create User",
+        "sectionTitle": "Profile",
+        "sectionDescription": "Odio euismod lacinia at quis risus sed vulputate odio.",
+        "nicknameLabel": "Nickname",
+        "avatarLabel": "Avatar",
+        "uploadImageButton": "Upload Image",
+        "bioLabel": "Bio",
+        "emailLabel": "Email",
+        "countryLabel": "Country",
+        "selectCountryPlaceholder": "Select a Country",
+        "cityLabel": "City",
+        "stateLabel": "State",
+        "websiteLabel": "Website",
+        "websiteAddon": "www",
+        "createUserButton": "Create User",
+        "countries": {
+          "AU": "Australia",
+          "BR": "Brazil",
+          "CN": "China",
+          "EG": "Egypt",
+          "FR": "France",
+          "DE": "Germany",
+          "IN": "India",
+          "JP": "Japan",
+          "ES": "Spain",
+          "US": "United States"
+        }
+      },
+      "group": {
+        "placeholder": "create-group works!"
+      },
+      "member": {
+        "title": "Create Member",
+        "description1": "Member will be managed by you. Ex: If member forgets password, you can resend a new OTP to them.",
+        "description2": "After creating, you send the generated OTP to that member for login.",
+        "description3": "OTP is only valid in 24 hours after member is created.",
+        "nameLabel": "Member's name",
+        "emailLabel": "Email",
+        "createMemberButton": "Create Member",
+        "table": {
+          "idHeader": "Id",
+          "nameHeader": "Name",
+          "pinHeader": "PIN",
+          "emailHeader": "Email"
+        }
+      },
+      "sidebar": {
+        "createMember": "Create Member",
+        "createUser": "Create User",
+        "createGroup": "Create Group"
+      }
+    },
+    "settings": {
+      "breadcrumb": "Settings",
+      "home": {
+        "cardHeader": "User Info",
+        "title": "Profile Settings",
+        "usernameLabel": "Username",
+        "tokenLabel": "Token",
+        "tokenPlaceholder": "Token",
+        "loginEmailLabel": "Login Email",
+        "loginIdLabel": "Login Id",
+        "avatarLabel": "Avatar",
+        "changeAvatarButton": "Change avatar",
+        "updateUserInfoButton": "Update user info",
+        "passwordUpdateCardHeader": "Password update",
+        "currentPasswordLabel": "Current password",
+        "newPasswordLabel": "New password",
+        "repeatNewPasswordLabel": "Repeat new password",
+        "passwordMismatchError": "New password and repeat new password do not match.",
+        "changePasswordButton": "Change password",
+        "signInWithEmailCardHeader": "Sign-in with Email",
+        "emailLabel": "Email",
+        "passwordLabel": "Password",
+        "repeatPasswordLabel": "Repeat password",
+        "updateSignInMethodButton": "Update Sign-in method"
+      },
+      "language": "Language",
+      "userInfoTitle": "User Info",
+      "displayName": "Display Name",
+      "email": "Email",
+      "saveButton": "Save Changes"
+    },
+    "member": {
+      "breadcrumb": "Member",
+      "list": {
+        "breadcrumb": "List",
+        "home": {
+          "searchPlaceholder": "Search Form",
+          "table": {
+            "idHeader": "Id",
+            "nameHeader": "Name",
+            "activatedHeader": "Activated",
+            "emailHeader": "Email",
+            "pinHeader": "PIN",
+            "avatarHeader": "Avatar",
+            "createdByHeader": "Created by",
+            "updatedAtHeader": "Updated at"
+          },
+          "trashTooltip": "Trash",
+          "deleteConfirmHeader": "Delete Confirmation",
+          "deleteConfirmMessage": "Do you want to delete the member: {memberName}?"
+        },
+        "sidebar": {
+          "placeholder": "member-list-sidebar works!"
+        }
+      },
+      "detail": {
+        "breadcrumb": "Detail",
+        "home": {
+          "placeholder": "member-detail-home works!"
+        },
+        "sidebar": {
+          "placeholder": "member-detail-sidebar works!"
+        }
+      }
+    },
+    "notifications": {
+      "saveSuccessTitle": "User profile",
+      "saveSuccessMessage": "Saved successfully!",
+      "saveErrorTitle": "User profile",
+      "saveErrorMessage": "Failed to save!. Error: {errorMessage}",
+      "uploadErrorTitle": "File upload",
+      "uploadErrorMessage": "Failed to upload avatar file",
+      "copySuccessTitle": "Copy",
+      "copySuccessMessage": "Copied token to clipboard",
+      "changePasswordTitle": "Change password",
+      "changePasswordSuccessMessage": "Password updated successfully!",
+      "changePasswordErrorTitle": "Change password",
+      "passwordRulesTitle": "Password Rules",
+      "deleteSuccessTitle": "Success",
+      "deleteSuccessMessage": "Deleted the member {memberName}",
+      "deleteErrorTitle": "Error",
+      "changesSavedSuccess": "Changes saved successfully",
+      "passwordChangedSuccess": "Password changed successfully",
+      "errorOccurred": "An error occurred",
+      "tokenCopied": "Token copied to clipboard!"
+    }
+  }
+}

@@ -1,0 +1,148 @@
+{
+    "shared": {
+      "column": {
+        "category": "Категория",
+        "title": "Заглавие",
+        "createdBy": "Създадено от",
+        "createdAt": "Създадено на",
+        "updatedAt": "Обновено на"
+      }
+    },
+    "textModule": {
+      "routing": {
+        "list": "Списък",
+        "detail": "Детайли"
+      },
+      "list": {
+        "title": "Списък с текстове",
+        "sidebar": {
+          "sharedByMe": "Споделено от мен",
+          "sharedByFriends": "Споделено от приятели",
+          "sharedByPublic": "Споделено публично"
+        },
+        "home": {
+          "table": {
+            "searchPlaceholder": "Търсене в таблицата",
+            "filter": {
+              "createdByHeader": "Създадено от",
+              "anyPlaceholder": "Който и да е"
+            },
+            "columns": {
+              "category": "Категория",
+              "audience": "Аудитория",
+              "title": "Заглавие",
+              "createdBy": "Създадено от",
+              "realtime": "В реално време",
+              "createdAt": "Създадено на",
+              "updatedAt": "Обновено на"
+            },
+            "contextMenu": {
+              "archive": "Архивирай",
+              "spam": "Спам",
+              "textMenu": "Меню текст",
+              "deleteTextConfirmationMsg": "Да се изтрие ли текстът '{{title}}' на {{username}}?",
+              "assignment": "Задача",
+              "shareTextDialogHeader": "Споделяне на текст"
+            }
+          },
+          "confirmations": {
+            "deleteTextMessage": "Искате ли да изтриете текста '{{title}}' на {{username}}?"
+          },
+          "toast": {
+            "deletedTextDetail": "Изтрит текст: {{title}}",
+            "errorDeletingTextDetail": "Грешка при изтриване на текста: {{title}}"
+          }
+        }
+      },
+      "detail": {
+        "home": {},
+        "sidebar": {},
+        "quiz": {
+          "sidebar": {
+            "shareQuizDialogHeader": "Споделяне на тест",
+            "pingPongInfo": "Това е въпрос и отговор в пинг-понг формат",
+            "confirmations": {
+              "deleteQuizMessage": "Искате ли да изтриете теста: {{title}}?"
+            },
+            "toast": {
+              "deletedQuizDetail": "Изтрит тест: {{title}}",
+              "errorDeletingQuizDetail": "Грешка при изтриване на теста: {{title}}"
+            },
+            "buttonFinishExam": "Завърши изпита",
+            "buttonSave": "Запази",
+            "menu": {
+              "assignment": "Задача",
+              "startExam": "Започни изпит",
+              "copy": "Копирай",
+              "share": "Сподели",
+              "delete": "Изтрий",
+              "bookmark": "Отметка"
+            }
+          }
+        },
+        "confirmations": {
+          "dataMigrationTitle": "Миграция на данни",
+          "dataMigrationMessage": "Има проблем с данните. Натиснете Да за да го поправите!"
+        }
+      },
+      "dialogs": {
+        "copyText": {
+          "works": "Копирането на текста е успешно!"
+        },
+        "sendEmail": {
+          "works": "Имейлът е изпратен успешно!"
+        },
+        "shareText": {
+          "labelSelected": "1 избран текст",
+          "placeholderTitle": "Заглавие",
+          "labelAddToExam": "Добави към изпит",
+          "labelWhoSees": "Кой вижда текста",
+          "placeholderAudience": "Изберете аудитория",
+          "helpCopySource": "Тъй като копирате от друг източник, източникът ще бъде показан във вашия текст!",
+          "helpUsernameUnavailable": "Потребителското име не е налично",
+          "buttonCancel": "Отказ",
+          "buttonCopy": "Копирай"
+        },
+        "createExam": {
+          "labelSelected": "1 избран текст",
+          "labelExamCode": "Код на изпита",
+          "placeholderExamCode": "Код на изпита",
+          "labelExamName": "Име на изпита",
+          "labelAssignTo": "Възложи на",
+          "checkboxIncludesMe": "Включва мен",
+          "placeholderGroup": "Изберете група",
+          "placeholderSearchName": "Търсене по име",
+          "helpCopySource": "Тъй като копирате от друг източник, източникът ще бъде показан във вашия текст!",
+          "helpUsernameUnavailable": "Потребителското име не е налично",
+          "onDemandInfo": "Назначените могат да започнат изпита по всяко време",
+          "scheduledInfo": "Назначените могат да започнат изпита в определеното време",
+          "labelStartTime": "Начален час",
+          "labelFinishTime": "Краен час",
+          "buttonCancel": "Отказ",
+          "tabOnDemand": "При поискване",
+          "tabScheduled": "Насрочено",
+          "buttonOnDemand": "Създай при поискване",
+          "buttonScheduled": "Създай насрочен",
+          "dialogExamCodesHeader": "Списък с кодове на изпити",
+          "placeholderSelectCode": "Изберете код",
+          "tableHeaderCode": "Код",
+          "tableHeaderTitle": "Заглавие",
+          "tableHeaderAssignTo": "Възложи на",
+          "buttonUseCode": "Използвай този код"
+        }
+      },
+      "sharedComponents": {
+        "appPreview": {
+          "title": " "
+        },
+        "baseComponent": {
+          "deleteConfirmationHeader": "Потвърждение за изтриване"
+        }
+      }
+    },
+    "categories": {
+      "QUIZ": "BG: Quiz",
+      "ARTICLE": "BG: Article",
+      "NOTE": "BG: Note"
+    }
+  }  

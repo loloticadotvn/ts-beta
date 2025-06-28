@@ -1,0 +1,142 @@
+{
+    "lovModule": {
+        "list": {
+            "labels": {
+                "breadcrumb": "Списък",
+                "title": "Списък със стойности",
+                "addNewButton": "Добави нов LOV"
+            },
+            "sidebar": {
+                "labels": {
+                    "createdByMe": "Създадено от мен",
+                    "createdByFriends": "Създадено от моите приятели",
+                    "createdByPublic": "Създадено публично"
+                }
+            },
+            "errors": {
+                "loadErrorTitle": "Грешка при зареждане"
+            }
+        },
+        "home": {
+            "columns": {
+                "name": "Име",
+                "audience": "Аудитория",
+                "createdBy": "Създадено от",
+                "createdAt": "Създадено на",
+                "updatedAt": "Актуализирано на"
+            },
+            "menus": {
+                "title": "LOV меню",
+                "duplicate": "Дублирай LOV '{{itemName}}'",
+                "delete": "Изтрий LOV '{{itemName}}'",
+                "setup": "Настрой LOV '{{itemName}}'"
+            }
+        },
+        "detail": {
+            "labels": {
+                "breadcrumb": "Детайли",
+                "editButton": "Редактирай",
+                "deleteButton": "Изтрий",
+                "rowContextMenuTitle": "Действия за ред",
+                "createdBy": "Създадено от"
+            },
+            "tooltips": {
+                "editTable": "Редактирай таблицата",
+                "saveTable": "Запази таблицата",
+                "uniqueValueHint": "Разрешава само уникална стойност!. "
+            },
+            "placeholders": {
+                "any": "Всички",
+                "enterValue": "Въведете стойност",
+                "enterCsvData": "Въведете CSV данни",
+                "enterPrompt": "Въведете подкана"
+            },
+            "buttons": {
+                "import": "Импортирай"
+            },
+            "dialogs": {
+                "importCsvTitle": "Импортиране на данни от CSV",
+                "importCsvDescription": "CSV данните включват редове. Колоните във всеки ред са разделени със запетаи.",
+                "importAiTitle": "Импортиране на данни от AI"
+            },
+            "menus": {
+                "addRow": "Добави нов ред",
+                "rowMenuTitle": "Меню за ред на LOV",
+                "deleteRow": "Изтрий този ред",
+                "saveLov": "Запази LOV '{{lovName}}'",
+                "importCsv": "Импортирай от CSV",
+                "importAi": "Импортирай от AI"
+            },
+            "notifications": {
+                "confirmed": "Потвърдено",
+                "rowDeleted": "Този ред е изтрит от текущия LOV!",
+                "lovSavedDetail": "LOV е запазен",
+                "dataCreationTitle": "Създаване на данни",
+                "dataGeneratedSuccess": "Данните за LOV '{{lovName}}' бяха генерирани от GenAI!",
+                "dataGeneratedError": "Неуспешно генериране на данни за LOV '{{lovName}}'!"
+            },
+            "confirmations": {
+                "deleteRowContents": "Сигурни ли сте, че искате да изтриете този ред и съдържанието му?.",
+                "saveToDeleteHint": "<br/> За да изтриете окончателно, трябва да щракнете върху бутона 'Запази'!"
+            },
+            "errors": {
+                "noIdTitle": "Няма прикачен ID",
+                "noIdDetail": "Не може да се получи LOV без ID",
+                "loadErrorTitle": "Грешка при зареждане",
+                "lovSaveFailed": "Неуспешно запазване на LOV",
+                "csvColumnMismatch": "Не могат да бъдат вмъкнати оставащите редове, тъй като общият брой колони на всеки ред не е равен на общия брой предварително дефинирани колони = "
+            }
+        },
+        "edit": {
+            "labels": {
+                "breadcrumb": "Редактиране",
+                "createTitle": "Създай нов LOV",
+                "updateTitle": "Актуализирай LOV",
+                "nameLabel": "Име*",
+                "codeLabel": "Код",
+                "descriptionLabel": "Описание",
+                "statusLabel": "Статус",
+                "activeStatus": "Активен",
+                "inactiveStatus": "Неактивен",
+                "saveButton": "Запази",
+                "cancelButton": "Отмени",
+                "tagsSection": "Етикети",
+                "descriptionPlaceholder": "Въведете описание тук",
+                "columnNamePlaceholder": "Име на колона*",
+                "selectTypePlaceholder": "Изберете тип",
+                "uniqueLabel": "У",
+                "notUniqueLabel": "НУ",
+                "defaultValuePlaceholder": "Стойност по подразбиране",
+                "stylePlaceholder": "Стил",
+                "addColumnButton": "Добави кол",
+                "createButton": "Създай"
+            },
+            "tooltips": {
+                "hideColumnName": "Маркирайте, за да скриете името на колоната",
+                "columnName": "Име на колона",
+                "columnType": "Тип данни на колоната",
+                "columnUniqueness": "Уникалност на стойностите в колоната",
+                "columnDefaultValue": "Стойност по подразбиране на колоната",
+                "columnStyle": "Стил на колоната",
+                "columnDescription": "Описание на колоната"
+            },
+            "errors": {
+                "requiredField": "Това поле е задължително",
+                "invalidFormat": "Невалиден формат",
+                "saveError": "Грешка при запазване на LOV"
+            },
+            "confirmations": {
+                "deleteTitle": "Изтрий LOV",
+                "deleteMessage": "Сигурни ли сте, че искате да изтриете този LOV?",
+                "deleteConfirm": "Да",
+                "deleteCancel": "Не",
+                "deleteRowMessage": "Сигурни ли сте, че искате да изтриете този ред?"
+            },
+            "notifications": {
+                "rowDeleted": "Редът е изтрит успешно.",
+                "saveToDeleteHint": "За да изтриете окончателно, щракнете върху бутона 'Запази'.",
+                "lovSaved": "LOV '{{lovName}}' е запазен успешно."
+            }
+        }
+    }
+}

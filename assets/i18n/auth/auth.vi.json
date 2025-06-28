@@ -1,0 +1,84 @@
+{
+  "authModule": {
+    "accessdenied": {
+      "title": "Truy cập bị từ chối",
+      "imageAlt": "bố cục freya",
+      "message": "truy cập bị từ chối",
+      "breadcrumb": "Truy cập bị từ chối"
+    },
+    "error": {
+      "title": "Lỗi",
+      "imageAlt": "bố cục freya",
+      "message": "Lỗi",
+      "breadcrumb": "Lỗi"
+    },
+    "forgotpassword": {
+      "title": "Quên mật khẩu",
+      "subtitle": "Nhập email của bạn để đặt lại mật khẩu",
+      "emailPlaceholder": "Email",
+      "cancelButton": "Hủy bỏ",
+      "submitButton": "Gửi đi",
+      "breadcrumb": "Quên mật khẩu"
+    },
+    "lockscreen": {
+      "title": "Màn hình khóa",
+      "subtitle": "Vui lòng nhập mật khẩu của bạn",
+      "avatarAlt": "Hình đại diện",
+      "userName": "Amy Elsner",
+      "userRole": "Quản trị trang web",
+      "signoutButton": "Đăng xuất",
+      "passwordPlaceholder": "Mật khẩu",
+      "unlockButton": "Mở khóa",
+      "forgotPasswordLink": "Quên mật khẩu?",
+      "breadcrumb": "Màn hình khóa"
+    },
+    "login": {
+      "tabSignIn": "Đăng nhập",
+      "tabWithToken": "Với mã truy cập",
+      "tabTrial": "Dùng thử",
+      "emailPlaceholder": "Email",
+      "passwordPlaceholder": "Mật khẩu",
+      "signInButton": "Đăng nhập",
+      "tokenPlaceholder": "Mã truy cập",
+      "signInWithTokenButton": "Đăng nhập",
+      "trialButton": "Dùng thử 14 ngày",
+      "memberIdPlaceholder": "Id của thành viên",
+      "pinPlaceholder": "Mã PIN",
+      "signInAsMemberButton": "Đăng nhập với tư cách thành viên",
+      "forgotPasswordLink": "quên mật khẩu?",
+      "memberAccountCheckbox": "Có tài khoản Thành viên?",
+      "noAccountPrompt": "Bạn chưa có tài khoản,",
+      "signUpLink": "đăng ký",
+      "loginFailedTitle": "Không đăng nhập được",
+      "loginFailedIncorrect": "Email hoặc mật khẩu không chính xác!",
+      "loginFailedGeneric": "Không đăng nhập được",
+      "breadcrumb": "Đăng nhập"
+    },
+    "newpassword": {
+      "title": "Mật khẩu mới",
+      "subtitle": "Nhập mật khẩu mới của bạn",
+      "passwordPlaceholder": "Mật khẩu",
+      "repeatPasswordPlaceholder": "Lặp lại mật khẩu",
+      "cancelButton": "Hủy bỏ",
+      "submitButton": "Gửi đi",
+      "breadcrumb": "Mật khẩu mới"
+    },
+    "register": {
+      "emailPlaceholder": "Email",
+      "passwordPlaceholder": "Mật khẩu",
+      "signUpButton": "Đăng ký",
+      "haveAccountPrompt": "Bạn đã có tài khoản?",
+      "loginLink": "Đăng nhập",
+      "signUpFailedTitle": "Không đăng nhập được",
+      "breadcrumb": "Đăng ký"
+    },
+    "verification": {
+      "title": "Xác minh",
+      "subtitle": "Chúng tôi đã gửi mã đến email của bạn:",
+      "emailDisplay": "dm**@gmail.com",
+      "cancelButton": "Hủy bỏ",
+      "verifyButton": "Xác minh",
+      "breadcrumb": "Xác minh"
+    }
+  }
+} 

@@ -1,0 +1,89 @@
+{
+    "articleModule": {
+        "list": {
+            "labels": {
+                "breadcrumb": "Liste",
+                "title": "Articles",
+                "sortByPlaceholder": "Trier par",
+                "recentArticlesTitle": "Articles récents",
+                "recentArticlesDescription": "[FR] Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "categoryAnimals": "Animaux",
+                "articleTitleAnimals": "[FR] Why Earth's most beloved creatures are headed toward extinction",
+                "placeholderTextLorem": "[FR] Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "categoryOxygen": "Oxygène",
+                "articleTitleOxygen": "[FR] Only one-third of tropical rainforests remain intact, study says",
+                "categoryNature": "Nature",
+                "articleTitleNature": "[FR] Does planting a tree really offset your carbon footprint?"
+            },
+            "sortOptions": {
+                "mostShared": "Les plus partagés",
+                "mostCommented": "Les plus commentés"
+            },
+            "errors": {
+                "loadErrorTitle": "Erreur de chargement"
+            },
+            "card": {
+                "menuItems": {
+                    "bookmark": "Marque-page",
+                    "editPost": "Modifier l'article",
+                    "deletePost": "Supprimer l'article"
+                },
+                "confirmations": {
+                    "deletePrefix": "Voulez-vous supprimer l'article : "
+                }
+            }
+        },
+        "detail": {
+            "labels": {
+                "breadcrumb": "Détail",
+                "previewChip": "Aperçu",
+                "editPostButton": "Modifier l'article",
+                "commentsTitle": "Commentaires",
+                "postCommentTitle": "Poster un commentaire",
+                "namePlaceholder": "Nom",
+                "emailPlaceholder": "Email",
+                "commentPlaceholder": "Votre commentaire",
+                "postCommentButton": "Poster le commentaire"
+            },
+            "errors": {
+                "noIdTitle": "Aucun ID attaché",
+                "noIdDetail": "Impossible d'obtenir l'article sans ID",
+                "loadErrorTitle": "Erreur de chargement"
+            }
+        },
+        "edit": {
+            "labels": {
+                "breadcrumb": "Modifier",
+                "createTitle": "Créer un nouvel article",
+                "updateTitle": "Mettre à jour l'article",
+                "fileUploadPrompt": "Déposer ou sélectionner une image de couverture",
+                "titlePlaceholder": "Titre*",
+                "descriptionPlaceholder": "Description",
+                "contentPlaceholder": "Contenu*",
+                "propertiesTab": "Propriétés",
+                "galleriaTab": "Galerie",
+                "publishSection": "Publier",
+                "statusLabel": "Statut :",
+                "statusValueDraft": "Brouillon",
+                "tagsSection": "Étiquettes",
+                "metaSection": "Méta",
+                "uploadButton": "Télécharger",
+                "deleteButton": "Supprimer",
+                "publishButton": "Publier",
+                "publishAndNewButton": "Publier & Nouveau"
+            },
+            "notifications": {
+                "imageUploadTitle": "Téléchargement d'image",
+                "imageUploadSuccess": "Téléchargement réussi !",
+                "imageUploadErrorPrefix": "Échec du téléchargement du fichier avatar"
+            },
+            "confirmations": {
+                "publishPrefix": "Voulez-vous publier l'article : ",
+                "deletePrefix": "Voulez-vous supprimer l'article : "
+            },
+            "errors": {
+                "loadErrorTitle": "Erreur de chargement"
+            }
+        }
+    }
+} 

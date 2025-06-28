@@ -1,0 +1,148 @@
+{
+    "shared": {
+      "column": {
+        "category": "类别",
+        "title": "标题",
+        "createdBy": "创建者",
+        "createdAt": "创建时间",
+        "updatedAt": "更新时间"
+      }
+    },
+    "textModule": {
+      "routing": {
+        "list": "列表",
+        "detail": "详情"
+      },
+      "list": {
+        "title": "文本列表",
+        "sidebar": {
+          "sharedByMe": "我分享的",
+          "sharedByFriends": "朋友分享的",
+          "sharedByPublic": "公开分享的"
+        },
+        "home": {
+          "table": {
+            "searchPlaceholder": "在表格中搜索",
+            "filter": {
+              "createdByHeader": "创建者",
+              "anyPlaceholder": "任意"
+            },
+            "columns": {
+              "category": "类别",
+              "audience": "受众",
+              "title": "标题",
+              "createdBy": "创建者",
+              "realtime": "实时",
+              "createdAt": "创建时间",
+              "updatedAt": "更新时间"
+            },
+            "contextMenu": {
+              "archive": "存档",
+              "spam": "垃圾信息",
+              "textMenu": "文本菜单",
+              "deleteTextConfirmationMsg": "是否删除 {{username}} 的文本 \"{{title}}\"?",
+              "assignment": "分配",
+              "shareTextDialogHeader": "分享文本"
+            }
+          },
+          "confirmations": {
+            "deleteTextMessage": "您确定要删除 {{username}} 的文本 \"{{title}}\" 吗？"
+          },
+          "toast": {
+            "deletedTextDetail": "已删除文本：{{title}}",
+            "errorDeletingTextDetail": "删除文本时出错：{{title}}"
+          }
+        }
+      },
+      "detail": {
+        "home": {},
+        "sidebar": {},
+        "quiz": {
+          "sidebar": {
+            "shareQuizDialogHeader": "分享测验",
+            "pingPongInfo": "这是一个你问我答的题目",
+            "confirmations": {
+              "deleteQuizMessage": "您确定要删除测验：{{title}} 吗？"
+            },
+            "toast": {
+              "deletedQuizDetail": "已删除测验：{{title}}",
+              "errorDeletingQuizDetail": "删除测验时出错：{{title}}"
+            },
+            "buttonFinishExam": "完成考试",
+            "buttonSave": "保存",
+            "menu": {
+              "assignment": "分配",
+              "startExam": "开始考试",
+              "copy": "复制",
+              "share": "分享",
+              "delete": "删除",
+              "bookmark": "收藏"
+            }
+          }
+        },
+        "confirmations": {
+          "dataMigrationTitle": "数据迁移",
+          "dataMigrationMessage": "发现数据问题，点击\"是\"进行修复！"
+        }
+      },
+      "dialogs": {
+        "copyText": {
+          "works": "文本复制成功！"
+        },
+        "sendEmail": {
+          "works": "邮件发送成功！"
+        },
+        "shareText": {
+          "labelSelected": "已选择 1 个文本",
+          "placeholderTitle": "标题",
+          "labelAddToExam": "添加到考试",
+          "labelWhoSees": "谁可以看到该文本",
+          "placeholderAudience": "选择受众",
+          "helpCopySource": "由于您正在复制其他来源的内容，源信息将显示在复制的文本中！",
+          "helpUsernameUnavailable": "用户名不可用",
+          "buttonCancel": "取消",
+          "buttonCopy": "复制"
+        },
+        "createExam": {
+          "labelSelected": "已选择 1 个文本",
+          "labelExamCode": "考试代码",
+          "placeholderExamCode": "考试代码",
+          "labelExamName": "考试名称",
+          "labelAssignTo": "分配给",
+          "checkboxIncludesMe": "包括我",
+          "placeholderGroup": "选择群组",
+          "placeholderSearchName": "按姓名搜索",
+          "helpCopySource": "由于您正在复制其他来源的内容，源信息将显示在复制的文本中！",
+          "helpUsernameUnavailable": "用户名不可用",
+          "onDemandInfo": "被分配人可以随时开始考试",
+          "scheduledInfo": "被分配人可在指定时间开始考试",
+          "labelStartTime": "开始时间",
+          "labelFinishTime": "结束时间",
+          "buttonCancel": "取消",
+          "tabOnDemand": "按需",
+          "tabScheduled": "定时",
+          "buttonOnDemand": "创建按需考试",
+          "buttonScheduled": "创建定时考试",
+          "dialogExamCodesHeader": "考试代码列表",
+          "placeholderSelectCode": "选择代码",
+          "tableHeaderCode": "代码",
+          "tableHeaderTitle": "标题",
+          "tableHeaderAssignTo": "分配给",
+          "buttonUseCode": "使用此代码"
+        }
+      },
+      "sharedComponents": {
+        "appPreview": {
+          "title": " "
+        },
+        "baseComponent": {
+          "deleteConfirmationHeader": "确认删除"
+        }
+      }
+    },
+    "categories": {
+      "QUIZ": "ZH: Quiz",
+      "ARTICLE": "ZH: Article",
+      "NOTE": "ZH: Note"
+    }
+  }  
