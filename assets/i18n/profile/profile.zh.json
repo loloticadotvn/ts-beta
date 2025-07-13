@@ -58,7 +58,8 @@
           "idHeader": "ID",
           "nameHeader": "名称",
           "pinHeader": "PIN",
-          "emailHeader": "电子邮件"
+          "emailHeader": "电子邮件",
+          "tokenHeader": "令牌"
         }
       },
       "sidebar": {

@@ -58,7 +58,8 @@
           "idHeader": "Id",
           "nameHeader": "Име",
           "pinHeader": "PIN",
-          "emailHeader": "Имейл"
+          "emailHeader": "Имейл",
+          "tokenHeader": "Токен"
         }
       },
       "sidebar": {

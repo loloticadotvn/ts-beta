@@ -31,12 +31,12 @@
         },
         "contextMenu": {
           "title": "考试菜单",
-          "deleteConfirm": "删除 {{username}} 的考试 '{{title}}'？",
+          "deleteConfirm": "删考试 '{{title}}'？",
           "edit": "编辑此考试",
           "share": "分享考试"
         },
         "dialog": {
-          "deleteConfirm": "您想删除分配给 {{username}} 的考试 '{{title}}' 吗？"
+          "deleteConfirm": "您想删除 的考试 '{{title}}' 吗？"
         },
         "statsDescription": "总答对题数：{{correct}} / 总题数：{{total}}",
         "placeholders": {

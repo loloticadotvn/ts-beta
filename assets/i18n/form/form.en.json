@@ -173,7 +173,7 @@
       },
       "contextMenu": {
         "title": "Form menu",
-        "deleteConfirm": "Delete the form '{title}' of {{username}}?",
+        "deleteConfirm": "Delete the form '{{title}}'?",
         "share": "Share to"
       }
     }

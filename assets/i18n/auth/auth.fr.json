@@ -51,7 +51,7 @@
       "signUpLink": "inscrivez-vous",
       "loginFailedTitle": "Échec de la connexion",
       "loginFailedIncorrect": "L'email ou le mot de passe est incorrect !",
-      "loginFailedGeneric": "Échec de la connexion",
+      "loginFailedGeneric": "{{message}}",
       "breadcrumb": "Connexion"
     },
     "newpassword": {

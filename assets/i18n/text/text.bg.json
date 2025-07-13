@@ -40,13 +40,13 @@
               "archive": "Архивирай",
               "spam": "Спам",
               "textMenu": "Меню текст",
-              "deleteTextConfirmationMsg": "Да се изтрие ли текстът '{{title}}' на {{username}}?",
+              "deleteTextConfirmationMsg": "Да се изтрие ли текстът '{{title}}' ?",
               "assignment": "Задача",
               "shareTextDialogHeader": "Споделяне на текст"
             }
           },
           "confirmations": {
-            "deleteTextMessage": "Искате ли да изтриете текста '{{title}}' на {{username}}?"
+            "deleteTextMessage": "Искате ли да изтриете текста '{{title}}' ?"
           },
           "toast": {
             "deletedTextDetail": "Изтрит текст: {{title}}",

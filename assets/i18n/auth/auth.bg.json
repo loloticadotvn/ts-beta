@@ -51,7 +51,7 @@
       "signUpLink": "регистрирайте се",
       "loginFailedTitle": "Неуспешно влизане",
       "loginFailedIncorrect": "Имейлът или паролата са неправилни!",
-      "loginFailedGeneric": "Неуспешно влизане",
+      "loginFailedGeneric": "{{message}}",
       "breadcrumb": "Вход"
     },
     "newpassword": {

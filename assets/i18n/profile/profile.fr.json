@@ -58,7 +58,8 @@
           "idHeader": "Id",
           "nameHeader": "Nom",
           "pinHeader": "PIN",
-          "emailHeader": "Email"
+          "emailHeader": "Email",
+          "tokenHeader": "Jeton"
         }
       },
       "sidebar": {

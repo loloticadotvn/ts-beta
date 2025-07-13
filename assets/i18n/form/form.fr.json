@@ -174,7 +174,7 @@
       },
       "contextMenu": {
         "title": "Menu Formulaire",
-        "deleteConfirm": "Supprimer le formulaire '{title}' de {{username}}?",
+        "deleteConfirm": "Supprimer le formulaire '{{title}}'?",
         "share": "Partager avec"
       }
     }

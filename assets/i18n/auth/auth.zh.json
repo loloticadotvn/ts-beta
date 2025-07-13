@@ -51,7 +51,7 @@
       "signUpLink": "注册",
       "loginFailedTitle": "登录失败",
       "loginFailedIncorrect": "电子邮件或密码不正确！",
-      "loginFailedGeneric": "登录失败",
+      "loginFailedGeneric": "{{message}}",
       "breadcrumb": "登录"
     },
     "newpassword": {

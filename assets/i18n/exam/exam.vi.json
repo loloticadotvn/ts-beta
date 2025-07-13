@@ -31,12 +31,12 @@
         },
         "contextMenu": {
           "title": "Menu bài kiểm tra",
-          "deleteConfirm": "Xóa bài kiểm tra '{{title}}' của {{username}}?",
+          "deleteConfirm": "Xóa bài kiểm tra '{{title}}'?",
           "edit": "Sửa bài kiểm tra này",
           "share": "Chia sẻ bài kiểm tra"
         },
         "dialog": {
-          "deleteConfirm": "Bạn có muốn xóa bài kiểm tra '{{title}}' được giao cho {{username}}?"
+          "deleteConfirm": "Bạn có muốn xóa bài kiểm tra '{{title}}'?"
         },
         "statsDescription": "Tổng câu trả lời đúng: {{correct}} / Tổng số câu hỏi: {{total}}",
         "placeholders": {

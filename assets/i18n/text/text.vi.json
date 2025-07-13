@@ -40,13 +40,13 @@
               "archive": "Lưu trữ",
               "spam": "Thư rác",
               "textMenu": "Menu văn bản",
-              "deleteTextConfirmationMsg": "Xóa văn bản '{{title}}' của {{username}}?",
+              "deleteTextConfirmationMsg": "Xóa văn bản '{{title}}' ?",
               "assignment": "Phân công",
               "shareTextDialogHeader": "Chia sẻ văn bản"
             }
           },
           "confirmations": {
-            "deleteTextMessage": "Bạn có muốn xóa văn bản '{{title}}' của {{username}} không?"
+            "deleteTextMessage": "Bạn có muốn xóa văn bản '{{title}}' không ?"
           },
           "toast": {
             "deletedTextDetail": "Đã xóa văn bản: {{title}}",

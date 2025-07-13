@@ -58,7 +58,8 @@
           "idHeader": "Id",
           "nameHeader": "Tên",
           "pinHeader": "PIN",
-          "emailHeader": "Email"
+          "emailHeader": "Email",
+          "tokenHeader": "Mã đăng nhập"
         }
       },
       "sidebar": {

@@ -31,12 +31,12 @@
         },
         "contextMenu": {
           "title": "Menu Examen",
-          "deleteConfirm": "Supprimer l'examen '{{title}}' de {{username}} ?",
+          "deleteConfirm": "Supprimer l'examen '{{title}}'?",
           "edit": "Modifier cet examen",
           "share": "Partager l'examen"
         },
         "dialog": {
-          "deleteConfirm": "Voulez-vous supprimer l'examen '{{title}}' assigné à {{username}} ?"
+          "deleteConfirm": "Voulez-vous supprimer l'examen '{{title}}'?"
         },
         "statsDescription": "Total de réponses correctes : {{correct}} / Total de questions : {{total}}",
         "placeholders": {

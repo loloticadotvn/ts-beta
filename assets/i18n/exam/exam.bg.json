@@ -31,12 +31,12 @@
         },
         "contextMenu": {
           "title": "Меню Изпит",
-          "deleteConfirm": "Изтриване на изпит '{{title}}' на {{username}}?",
+          "deleteConfirm": "Изтриване на изпит '{{title}}'?",
           "edit": "Редактирай този изпит",
           "share": "Сподели изпит"
         },
         "dialog": {
-          "deleteConfirm": "Искате ли да изтриете изпит '{{title}}', назначен на {{username}}?"
+          "deleteConfirm": "Искате ли да изтриете изпит '{{title}}'?"
         },
         "statsDescription": "Общо верни отговори: {{correct}} / Общо въпроси: {{total}}",
         "placeholders": {

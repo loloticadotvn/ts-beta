@@ -40,13 +40,13 @@
               "archive": "Archiver",
               "spam": "Spam",
               "textMenu": "Menu texte",
-              "deleteTextConfirmationMsg": "Supprimer le texte '{{title}}' de {{username}} ?",
+              "deleteTextConfirmationMsg": "Supprimer le texte '{{title}}' ?",
               "assignment": "Affectation",
               "shareTextDialogHeader": "Partager le texte"
             }
           },
           "confirmations": {
-            "deleteTextMessage": "Souhaitez-vous supprimer le texte '{{title}}' de {{username}} ?"
+            "deleteTextMessage": "Souhaitez-vous supprimer le texte '{{title}}' ?"
           },
           "toast": {
             "deletedTextDetail": "Texte supprimé : {{title}}",

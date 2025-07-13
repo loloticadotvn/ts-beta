@@ -192,7 +192,7 @@
        },
        "contextMenu": {
          "title": "表单菜单",
-         "deleteConfirm": "删除{{username}}的表单 '{title}'?",
+         "deleteConfirm": "删的表单 '{title}'?",
          "share": "分享给"
        }
     }

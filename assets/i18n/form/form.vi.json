@@ -174,7 +174,7 @@
       },
       "contextMenu": {
         "title": "Menu Biểu mẫu",
-        "deleteConfirm": "Xóa biểu mẫu '{title}' của {{username}}?",
+        "deleteConfirm": "Xóa biểu mẫu '{{title}}'?",
         "share": "Chia sẻ đến"
       }
     }

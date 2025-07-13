@@ -173,7 +173,7 @@
       },
       "contextMenu": {
         "title": "Меню Формуляр",
-        "deleteConfirm": "Изтриване на формуляр '{title}' от {{username}}?",
+        "deleteConfirm": "Изтриване на формуляр '{{title}}'?",
         "share": "Споделяне с"
       }
     }

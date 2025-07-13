@@ -40,13 +40,13 @@
               "archive": "存档",
               "spam": "垃圾信息",
               "textMenu": "文本菜单",
-              "deleteTextConfirmationMsg": "是否删除 {{username}} 的文本 \"{{title}}\"?",
+              "deleteTextConfirmationMsg": "您确定要删除  的文本 '{{title}}' ?",
               "assignment": "分配",
               "shareTextDialogHeader": "分享文本"
             }
           },
           "confirmations": {
-            "deleteTextMessage": "您确定要删除 {{username}} 的文本 \"{{title}}\" 吗？"
+            "deleteTextMessage": "您确定要删除  的文本 '{{title}}' ？"
           },
           "toast": {
             "deletedTextDetail": "已删除文本：{{title}}",

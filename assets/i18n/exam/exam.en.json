@@ -31,12 +31,12 @@
         },
         "contextMenu": {
           "title": "Exam menu",
-          "deleteConfirm": "Delete the exam '{{title}}' of {{username}}?",
+          "deleteConfirm": "Delete the exam '{{title}}'?",
           "edit": "Edit this exam",
           "share": "Share exam"
         },
         "dialog": {
-          "deleteConfirm": "Do you want to delete the exam '{{title}}' that assigned to {{username}}?"
+          "deleteConfirm": "Do you want to delete the exam '{{title}}'?"
         },
         "statsDescription": "Total correct answers: {{correct}} / Total questions: {{total}}",
         "placeholders": {

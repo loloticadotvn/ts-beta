@@ -51,7 +51,7 @@
       "signUpLink": "sign up",
       "loginFailedTitle": "Failed to login",
       "loginFailedIncorrect": "Email or Password is incorrect!",
-      "loginFailedGeneric": "Failed to login",
+      "loginFailedGeneric": "{{message}}",
       "breadcrumb": "Login"
     },
     "newpassword": {

@@ -51,7 +51,7 @@
       "signUpLink": "đăng ký",
       "loginFailedTitle": "Không đăng nhập được",
       "loginFailedIncorrect": "Email hoặc mật khẩu không chính xác!",
-      "loginFailedGeneric": "Không đăng nhập được",
+      "loginFailedGeneric": "{{message}}",
       "breadcrumb": "Đăng nhập"
     },
     "newpassword": {
